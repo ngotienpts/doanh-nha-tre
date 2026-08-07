@@ -1,0 +1,1336 @@
+<!DOCTYPE html>
+<html lang="vi">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- favicon -->
+        <link rel="shortcut icon" href="./images/favicon/favicon.ico" type="image/x-icon" />
+        <!-- end favicon -->
+        <title>Doanh nhân trẻ</title>
+        <!-- font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap" rel="stylesheet">
+        <!-- end font -->
+        <link rel="stylesheet" href="./lib/swiper/swiper-bundle.min.css" />
+        <link rel="stylesheet" href="./css/style.css" />
+        <script src="./lib/jquery/jquery-3.7.1.min.js"></script>
+    </head>
+
+    <body>
+        <!-- header -->
+        <header id="header" class="header relative z-50 js__stickyHeader">
+            <!-- pc -->
+            <div class="d-3xl-block d-xl-none">
+                <div class="header-desk relative z-10">
+                    <!-- top -->
+                    <div class="header-desk-top bg-white w-wrapper py-15">
+                        <div class="header-desk-top__container w-1280 w-md-500 d-3xl-flex items-center justify-between">
+                            <!-- left -->
+                            <div class="left d-3xl-flex items-center">
+                                <!-- logo -->
+                                <div class="logo d-3xl-flex items-center gap-10">
+                                    <a href="#" class="logo-img">
+                                        <img src="./images/svg/logo.svg" alt="">
+                                    </a>
+                                </div>
+                                <!-- end logo -->
+                            </div>
+                            <!-- end left -->
+
+                            <!-- right -->
+                            <div class="right d-3xl-flex items-center">
+                                <!-- btn -->
+                                <div>
+                                    <a href="#" class="btn uppercase fs-14">Liên hệ quảng cáo</a>
+                                </div>
+                                <!-- end btn -->
+
+                                <!-- search pc -->
+                                <div class="search-desk js__searchDesk ml-24 pl-20 border-l-d9 relative">
+                                    <div class="search-desk__icon js__searchIconDesk pointer bg-white">
+                                        <img src="./images/svg/search-gray.svg" alt="">
+                                    </div>
+                                    <div class="search-desk__content js__searchContentDesk">
+                                        <form action="search-desk__form">
+                                            <div class="search-desk__group">
+                                                <input type="text" class="search-desk__input js__searchInputDesk" placeholder="Tìm kiếm...">
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                                <!-- end search pc -->
+
+                            </div>
+                            <!-- end right -->
+                        </div>
+                    </div>
+                    <!-- end top -->
+
+                    <!-- menu -->
+                    <div class="header-desk-menu bg-white w-wrapper relative bg-white border-t-d9 border-b-d9">
+                        <div class="header-desk-menu__container w-1280 w-md-500 d-3xl-flex items-center justify-between">
+                            <!-- navbar -->
+                            <nav class="navbar flex-1">
+                                <ul class="navbar-wrapper d-3xl-flex items-center justify-between">
+                                    <!-- item -->
+                                    <li class="navbar-item">
+                                        <div class="navbar-item__heading d-3xl-flex items-center fw-400 fs-16">
+                                            <a href="#" class="navbar-item__text flex-1 d-3xl-inline-block text-gray-33">Chính sách & Thị Trường</a>
+                                        </div>
+                                        <ul class="navbar-dropdown fs-14 scroll">
+                                            <li class="navbar-dropdown__item">
+                                                <a href="#" class="navbar-dropdown__link">Trong nước</a>
+                                            </li>
+                                            <li class="navbar-dropdown__item">
+                                                <a href="#" class="navbar-dropdown__link">Quốc tế</a>
+                                            </li>
+                                            <li class="navbar-dropdown__item">
+                                                <a href="#" class="navbar-dropdown__link">Tin phật sự</a>
+                                            </li>
+                                            <li class="navbar-dropdown__item">
+                                                <a href="#" class="navbar-dropdown__link">Tin mới</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <!-- end item -->
+                                    <!-- item -->
+                                    <li class="navbar-item">
+                                        <div class="navbar-item__heading d-3xl-flex items-center fw-400 fs-16">
+                                            <a href="#" class="navbar-item__text flex-1 d-3xl-inline-block text-gray-33">Kết nối doanh nhân</a>
+                                        </div>
+                                        <ul class="navbar-dropdown fs-14 scroll">
+                                            <li class="navbar-dropdown__item">
+                                                <a href="#" class="navbar-dropdown__link">Trong nước</a>
+                                            </li>
+                                            <li class="navbar-dropdown__item">
+                                                <a href="#" class="navbar-dropdown__link">Quốc tế</a>
+                                            </li>
+                                            <li class="navbar-dropdown__item">
+                                                <a href="#" class="navbar-dropdown__link">Tin phật sự</a>
+                                            </li>
+                                            <li class="navbar-dropdown__item">
+                                                <a href="#" class="navbar-dropdown__link">Tin mới</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <!-- end item -->
+                                    <!-- item -->
+                                    <li class="navbar-item">
+                                        <div class="navbar-item__heading d-3xl-flex items-center fw-400 fs-16">
+                                            <a href="#" class="navbar-item__text flex-1 d-3xl-inline-block text-gray-33">Khởi nghiệp & sáng tạo</a>
+                                        </div>
+                                        <ul class="navbar-dropdown fs-14 scroll">
+                                            <li class="navbar-dropdown__item">
+                                                <a href="#" class="navbar-dropdown__link">Trong nước</a>
+                                            </li>
+                                            <li class="navbar-dropdown__item">
+                                                <a href="#" class="navbar-dropdown__link">Quốc tế</a>
+                                            </li>
+                                            <li class="navbar-dropdown__item">
+                                                <a href="#" class="navbar-dropdown__link">Tin phật sự</a>
+                                            </li>
+                                            <li class="navbar-dropdown__item">
+                                                <a href="#" class="navbar-dropdown__link">Tin mới</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <!-- end item -->
+                                    <!-- item -->
+                                    <li class="navbar-item">
+                                        <div class="navbar-item__heading d-3xl-flex items-center fw-400 fs-16">
+                                            <a href="#" class="navbar-item__text flex-1 d-3xl-inline-block text-gray-33">Chân dung doanh nhân</a>
+                                        </div>
+                                        <ul class="navbar-dropdown fs-14 scroll">
+                                            <li class="navbar-dropdown__item">
+                                                <a href="#" class="navbar-dropdown__link">Trong nước</a>
+                                            </li>
+                                            <li class="navbar-dropdown__item">
+                                                <a href="#" class="navbar-dropdown__link">Quốc tế</a>
+                                            </li>
+                                            <li class="navbar-dropdown__item">
+                                                <a href="#" class="navbar-dropdown__link">Tin phật sự</a>
+                                            </li>
+                                            <li class="navbar-dropdown__item">
+                                                <a href="#" class="navbar-dropdown__link">Tin mới</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <!-- end item -->
+                                    <!-- item -->
+                                    <li class="navbar-item">
+                                        <div class="navbar-item__heading d-3xl-flex items-center fw-400 fs-16">
+                                            <a href="#" class="navbar-item__text flex-1 d-3xl-inline-block text-gray-33">Công nghệ & chuyển đối số</a>
+                                        </div>
+                                        <ul class="navbar-dropdown fs-14 scroll">
+                                            <li class="navbar-dropdown__item">
+                                                <a href="#" class="navbar-dropdown__link">Trong nước</a>
+                                            </li>
+                                            <li class="navbar-dropdown__item">
+                                                <a href="#" class="navbar-dropdown__link">Quốc tế</a>
+                                            </li>
+                                            <li class="navbar-dropdown__item">
+                                                <a href="#" class="navbar-dropdown__link">Tin phật sự</a>
+                                            </li>
+                                            <li class="navbar-dropdown__item">
+                                                <a href="#" class="navbar-dropdown__link">Tin mới</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <!-- end item -->
+                                    <!-- item -->
+                                    <li class="navbar-item">
+                                        <div class="navbar-item__heading d-3xl-flex items-center fw-400 fs-16">
+                                            <a href="#" class="navbar-item__text flex-1 d-3xl-inline-block text-gray-33">Dự liệu doanh nhân trẻ</a>
+                                        </div>
+                                        <ul class="navbar-dropdown fs-14 scroll">
+                                            <li class="navbar-dropdown__item">
+                                                <a href="#" class="navbar-dropdown__link">Trong nước</a>
+                                            </li>
+                                            <li class="navbar-dropdown__item">
+                                                <a href="#" class="navbar-dropdown__link">Quốc tế</a>
+                                            </li>
+                                            <li class="navbar-dropdown__item">
+                                                <a href="#" class="navbar-dropdown__link">Tin phật sự</a>
+                                            </li>
+                                            <li class="navbar-dropdown__item">
+                                                <a href="#" class="navbar-dropdown__link">Tin mới</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <!-- end item -->
+                                    <!-- item -->
+                                    <li class="navbar-item">
+                                        <div class="navbar-item__heading d-3xl-flex items-center fw-400 fs-16">
+                                            <a href="#" class="navbar-item__text flex-1 d-3xl-inline-block text-gray-33">Hội đồng biên tập</a>
+                                        </div>
+                                        <ul class="navbar-dropdown fs-14 scroll">
+                                            <li class="navbar-dropdown__item">
+                                                <a href="#" class="navbar-dropdown__link">Trong nước</a>
+                                            </li>
+                                            <li class="navbar-dropdown__item">
+                                                <a href="#" class="navbar-dropdown__link">Quốc tế</a>
+                                            </li>
+                                            <li class="navbar-dropdown__item">
+                                                <a href="#" class="navbar-dropdown__link">Tin phật sự</a>
+                                            </li>
+                                            <li class="navbar-dropdown__item">
+                                                <a href="#" class="navbar-dropdown__link">Tin mới</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <!-- end item -->
+                                </ul>
+                            </nav>
+                            <!-- end navbar -->
+                        </div>
+                    </div>
+                    <!-- end menu -->
+                </div>
+            </div>
+            <!-- end pc -->
+             
+            <!-- mb -->
+            <div class="d-3xl-none d-xl-block">
+                <div class="header-mb relative z-10 border-b-d9">
+                    <!-- bot -->
+                    <div class="header-mb-bot w-wrapper bg-white">
+                        <div class="header-mb-bot__container w-1280 d-3xl-flex items-center justify-between py-12">
+                            <!-- left -->
+                            <div class="left flex-1">
+                                <!-- submenu -->
+                                <div class="sub-menu">
+                                    <!-- icon bar -->
+                                    <div class="icon-bar js__clickShowMenuMb">
+                                        <img src="./images/svg/bar-black.svg" alt="">
+                                    </div>
+                                    <!-- end icon bar -->
+                                    <!-- content -->
+                                    <div class="sub-menu__content">
+                                        <!-- close -->
+                                        <div class="sub-menu__close js__closeSubMenu d-3xl-flex items-center">
+                                            <img src="./images/svg/close-gray.svg" alt="">
+                                        </div>
+                                        <!-- end close -->
+            
+                                        <div class="sub-menu__container">
+                                            <!-- list -->
+                                            <div class="sub-menu__list">
+                                                <!-- item -->
+                                                <div class="sub-menu__item px-20">
+                                                    <!-- heading -->
+                                                    <div class="heading-sub d-3xl-flex items-center justify-between py-15 text-gray-2b">
+                                                        <h3 class="heading-sub__title fs-15 fw-500">
+                                                            <a href="#">Chính sách & Thị trường</a>
+                                                        </h3>
+                                                        <div class="heading-sub__arrow js__dropDown">
+                                                            <img src="./images/svg/arrow-down-gray.svg" alt="">
+                                                        </div>
+                                                    </div>
+                                                    <!-- end heading -->
+            
+                                                    <!-- sub menu list -->
+                                                    <ul class="list-sub js__listSubMenu">
+                                                        <li class="item-sub">
+                                                            <a href="#" class="item-sub__link fs-14">Release Calender</a>
+                                                        </li>
+                                                        <li class="item-sub">
+                                                            <a href="#" class="item-sub__link fs-14">Release Calender</a>
+                                                        </li>
+                                                        <li class="item-sub">
+                                                            <a href="#" class="item-sub__link fs-14">Release Calender</a>
+                                                        </li>
+                                                    </ul>
+                                                    <!-- end sub menu list -->
+                                                </div>
+                                                <!-- end item -->
+                                                <!-- item -->
+                                                <div class="sub-menu__item px-20">
+                                                    <!-- heading -->
+                                                    <div class="heading-sub d-3xl-flex items-center justify-between py-15 text-gray-2b">
+                                                        <h3 class="heading-sub__title fs-15 fw-500">
+                                                            <a href="#">Chính sách & Thị trường</a>
+                                                        </h3>
+                                                        <div class="heading-sub__arrow js__dropDown">
+                                                            <img src="./images/svg/arrow-down-gray.svg" alt="">
+                                                        </div>
+                                                    </div>
+                                                    <!-- end heading -->
+            
+                                                    <!-- sub menu list -->
+                                                    <ul class="list-sub js__listSubMenu">
+                                                        <li class="item-sub">
+                                                            <a href="#" class="item-sub__link fs-14">Release Calender</a>
+                                                        </li>
+                                                        <li class="item-sub">
+                                                            <a href="#" class="item-sub__link fs-14">Release Calender</a>
+                                                        </li>
+                                                        <li class="item-sub">
+                                                            <a href="#" class="item-sub__link fs-14">Release Calender</a>
+                                                        </li>
+                                                    </ul>
+                                                    <!-- end sub menu list -->
+                                                </div>
+                                                <!-- end item -->
+                                                <!-- item -->
+                                                <div class="sub-menu__item px-20">
+                                                    <!-- heading -->
+                                                    <div class="heading-sub d-3xl-flex items-center justify-between py-15 text-gray-2b">
+                                                        <h3 class="heading-sub__title fs-15 fw-500">
+                                                            <a href="#">Chính sách & Thị trường</a>
+                                                        </h3>
+                                                        <div class="heading-sub__arrow js__dropDown">
+                                                            <img src="./images/svg/arrow-down-gray.svg" alt="">
+                                                        </div>
+                                                    </div>
+                                                    <!-- end heading -->
+            
+                                                    <!-- sub menu list -->
+                                                    <ul class="list-sub js__listSubMenu">
+                                                        <li class="item-sub">
+                                                            <a href="#" class="item-sub__link fs-14">Release Calender</a>
+                                                        </li>
+                                                        <li class="item-sub">
+                                                            <a href="#" class="item-sub__link fs-14">Release Calender</a>
+                                                        </li>
+                                                        <li class="item-sub">
+                                                            <a href="#" class="item-sub__link fs-14">Release Calender</a>
+                                                        </li>
+                                                    </ul>
+                                                    <!-- end sub menu list -->
+                                                </div>
+                                                <!-- end item -->
+                                                <!-- item -->
+                                                <div class="sub-menu__item px-20">
+                                                    <!-- heading -->
+                                                    <div class="heading-sub d-3xl-flex items-center justify-between py-15 text-gray-2b">
+                                                        <h3 class="heading-sub__title fs-15 fw-500">
+                                                            <a href="#">Chính sách & Thị trường</a>
+                                                        </h3>
+                                                        <div class="heading-sub__arrow js__dropDown">
+                                                            <img src="./images/svg/arrow-down-gray.svg" alt="">
+                                                        </div>
+                                                    </div>
+                                                    <!-- end heading -->
+            
+                                                    <!-- sub menu list -->
+                                                    <ul class="list-sub js__listSubMenu">
+                                                        <li class="item-sub">
+                                                            <a href="#" class="item-sub__link fs-14">Release Calender</a>
+                                                        </li>
+                                                        <li class="item-sub">
+                                                            <a href="#" class="item-sub__link fs-14">Release Calender</a>
+                                                        </li>
+                                                        <li class="item-sub">
+                                                            <a href="#" class="item-sub__link fs-14">Release Calender</a>
+                                                        </li>
+                                                    </ul>
+                                                    <!-- end sub menu list -->
+                                                </div>
+                                                <!-- end item -->
+                                                <!-- item -->
+                                                <div class="sub-menu__item px-20">
+                                                    <!-- heading -->
+                                                    <div class="heading-sub d-3xl-flex items-center justify-between py-15 text-gray-2b">
+                                                        <h3 class="heading-sub__title fs-15 fw-500">
+                                                            <a href="#">Chính sách & Thị trường</a>
+                                                        </h3>
+                                                        <div class="heading-sub__arrow js__dropDown">
+                                                            <img src="./images/svg/arrow-down-gray.svg" alt="">
+                                                        </div>
+                                                    </div>
+                                                    <!-- end heading -->
+            
+                                                    <!-- sub menu list -->
+                                                    <ul class="list-sub js__listSubMenu">
+                                                        <li class="item-sub">
+                                                            <a href="#" class="item-sub__link fs-14">Release Calender</a>
+                                                        </li>
+                                                        <li class="item-sub">
+                                                            <a href="#" class="item-sub__link fs-14">Release Calender</a>
+                                                        </li>
+                                                        <li class="item-sub">
+                                                            <a href="#" class="item-sub__link fs-14">Release Calender</a>
+                                                        </li>
+                                                    </ul>
+                                                    <!-- end sub menu list -->
+                                                </div>
+                                                <!-- end item -->
+                                                <!-- item -->
+                                                <div class="sub-menu__item px-20">
+                                                    <!-- heading -->
+                                                    <div class="heading-sub d-3xl-flex items-center justify-between py-15 text-gray-2b">
+                                                        <h3 class="heading-sub__title fs-15 fw-500">
+                                                            <a href="#">Chính sách & Thị trường</a>
+                                                        </h3>
+                                                        <div class="heading-sub__arrow js__dropDown">
+                                                            <img src="./images/svg/arrow-down-gray.svg" alt="">
+                                                        </div>
+                                                    </div>
+                                                    <!-- end heading -->
+            
+                                                    <!-- sub menu list -->
+                                                    <ul class="list-sub js__listSubMenu">
+                                                        <li class="item-sub">
+                                                            <a href="#" class="item-sub__link fs-14">Release Calender</a>
+                                                        </li>
+                                                        <li class="item-sub">
+                                                            <a href="#" class="item-sub__link fs-14">Release Calender</a>
+                                                        </li>
+                                                        <li class="item-sub">
+                                                            <a href="#" class="item-sub__link fs-14">Release Calender</a>
+                                                        </li>
+                                                    </ul>
+                                                    <!-- end sub menu list -->
+                                                </div>
+                                                <!-- end item -->
+                                                <!-- item -->
+                                                <div class="sub-menu__item px-20">
+                                                    <!-- heading -->
+                                                    <div class="heading-sub d-3xl-flex items-center justify-between py-15 text-gray-2b">
+                                                        <h3 class="heading-sub__title fs-15 fw-500">
+                                                            <a href="#">Chính sách & Thị trường</a>
+                                                        </h3>
+                                                        <div class="heading-sub__arrow js__dropDown">
+                                                            <img src="./images/svg/arrow-down-gray.svg" alt="">
+                                                        </div>
+                                                    </div>
+                                                    <!-- end heading -->
+            
+                                                    <!-- sub menu list -->
+                                                    <ul class="list-sub js__listSubMenu">
+                                                        <li class="item-sub">
+                                                            <a href="#" class="item-sub__link fs-14">Release Calender</a>
+                                                        </li>
+                                                        <li class="item-sub">
+                                                            <a href="#" class="item-sub__link fs-14">Release Calender</a>
+                                                        </li>
+                                                        <li class="item-sub">
+                                                            <a href="#" class="item-sub__link fs-14">Release Calender</a>
+                                                        </li>
+                                                    </ul>
+                                                    <!-- end sub menu list -->
+                                                </div>
+                                                <!-- end item -->
+                                                
+                                            </div>
+                                            <!-- end list -->
+
+                                            <!-- btn -->
+                                            <div class="sub-menu__bot d-3xl-flex items-center justify-center pb-10 pt-30">
+                                                <a href="#" class="btn uppercase fs-14">Liên hệ quảng cáo</a>
+                                            </div>
+                                            <!-- end btn -->
+                                        </div>
+                                    </div>
+                                    <!-- end content -->
+                                    <div class="overlay js__overlay"></div>
+                                </div>
+                                <!-- end submenu -->
+                            </div>
+                            <!-- end left -->
+                            <!-- center -->
+                            <div class="center flex-0">
+                                <!-- logo -->
+                                <div class="logo">
+                                    <a href="#" class="logo-img">
+                                        <img src="./images/svg/logo.svg" alt="">
+                                    </a>
+                                </div>
+                                <!-- end logo -->
+                            </div>
+                            <!-- end center -->
+    
+                            <!-- right -->
+                            <div class="right flex-1 d-3xl-flex items-center justify-end">
+                                <!-- search mb -->
+                                <div class="search-mb">
+                                    <div class="search-mb__icon js__searchMb">
+                                        <img src="./images/svg/search-gray.svg" alt="">
+                                    </div>
+                                    <!-- form -->
+                                    <div class="header-search-mb__form h-60 w-full js__formSearchMb shadow">
+                                        <form action="" class="w-full h-full">
+                                            <div class="relative w-full h-full">
+                                                <input type="text" class="header-search-input w-full h-full p-12 fs-16 js__focusSearchMb" placeholder="Search...">
+                                                <div class="header-search-btn absolute h-full d-3xl-flex items-center p-8 js__closeSearchMb icon-20">
+                                                    <img src="./images/svg/close-gray.svg" alt="">
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                    <!-- end form -->
+                                </div>
+                                <!-- end search mb -->
+                            </div>
+                            <!-- end right -->
+                        </div>
+                    </div>
+                   <!-- end bot -->
+                </div>
+            </div>
+            <!-- end mb -->
+
+        </header>
+        <!-- end header -->
+        <!-- main -->
+        <main id="main" class="main">
+
+            <!-- breadcrumb -->
+            <div class="breadcrumb w-wrapper">
+                <div class="breadcrumb-container w-1280 d-3xl-flex items-center h-full w-full">
+                    <!-- item -->
+                    <div class="breadcrumb-item fs-14 h-full d-3xl-flex items-center">
+                        <a href="/" class="breadcrumb-link">Trang chủ</a>
+                    </div>
+                    <!-- end item -->
+                    <!-- item -->
+                    <div class="breadcrumb-item fs-14 h-full d-3xl-flex items-center active">
+                        <a href="#" class="breadcrumb-link">Chính sách & thị trường</a>
+                    </div>
+                    <!-- end item -->
+                    
+                </div>
+            </div>
+            <!-- end breadcrumb -->
+            <!-- primary -->
+            <section class="detail-primary relative w-wrapper z-10">
+                <div class="detail-primary__container w-1280 w-md-500 relative block-quaternary border-b-d9 py-40 py-md-20">
+                    <!-- left -->
+                    <div class="detail-primary__left block-quaternary__left">
+                        <div class="detail-box-first d-3xl-flex mb-20">
+                            <!-- share detail -->
+                            <div class="share-detail flex-0 relative d-3xl-block d-md-none">
+                                <div class="share-detail__container">
+                                    <ul class="share-detail__list">
+                                        <li class="share-detail__item">
+                                            <a href="#" class="share-detail__link">
+                                                <img src="./images/svg/link-orange-2.svg" alt="">
+                                            </a>
+                                        </li>
+                                        <li class="share-detail__item">
+                                            <a href="#" class="share-detail__link">
+                                                <img src="./images/svg/fb-orange-2.svg" alt="">
+                                            </a>
+                                        </li>
+                                        <li class="share-detail__item">
+                                            <a href="#" class="share-detail__link">
+                                                <img src="./images/svg/x-orange-2.svg" alt="">
+                                            </a>
+                                        </li>
+                                        <li class="share-detail__item">
+                                            <a href="#" class="share-detail__link">
+                                                <img src="./images/svg/cmt-orange-2.svg" alt="">
+                                            </a>
+                                            <span class="fs-14">30</span>
+                                        </li>
+                                        <li class="share-detail__item share-detail__item--bookmark">
+                                            <a href="#" class="share-detail__link">
+                                                <img src="./images/svg/bookmark-orange-2.svg" alt="">
+                                            </a>
+                                        </li>
+                                        <li class="share-detail__item">
+                                            <div onclick="window.print()" class="share-detail__link pointer">
+                                                    <img src="./images/svg/print-oragne-2.svg" alt="">
+                                            </div>
+                                        </li>
+
+                                        
+                                    </ul>
+                                </div>
+                            </div>
+                            <!-- end share detail -->
+                            
+                            <!-- detail content-->
+                            <div class="detail-content detail-content-secondary flex-1 pl-40">
+
+                                <!-- detail content secondary top -->
+                                <div class="detail-content-secondary__top mb-md-20 border-b-md-d9 pb-30 pb-md-20">
+                                    <!-- article -->
+                                    <div class="article d-3xl-flex d-md-block gap-24">
+                                        <!-- img -->
+                                        <div class="article-img w-50 w-md-full flex-0">
+                                            <a href="#" class="ratio-3x2">
+                                                <img src="./images/2.jpg" alt="">
+                                            </a>
+                                        </div>
+                                        <!-- end img -->
+                                        <!-- content -->
+                                        <div class="article-content flex-1 mt-md-20">
+                                            <!-- article name -->
+                                            <div class="article-name font-merri text-gray-33">
+                                                <span class="text-1 fs-16 fs-md-15 fw-400 d-3xl-block">Tên doanh nhân</span>
+                                                <h1 class="text-2 fs-24 fs-md-22 fw-700 d-3xl-block mt-4">Nguyễn Minh A</h1>
+                                            </div>
+                                            <!-- end article name -->
+                                            <!-- article cty -->
+                                            <div class="article-cty text-gray-33 mt-12">
+                                                <span class="text-1 fs-17 fs-md-15 fw-400 d-3xl-block">Tên công ty</span>
+                                                <span class="text-2 fs-17 fs-md-15 fw-700 d-3xl-block mt-4">Cty cổ phần công nghệ ABC</span>
+                                            </div>
+                                            <!-- end article cty -->
+                                            <!-- article mst -->
+                                            <div class="article-mst text-gray-33 mt-12">
+                                                <span class="text-1 fs-17 fs-md-15 fw-400 d-3xl-block">Mã số thuế</span>
+                                                <span class="text-2 fs-17 fs-md-15 fw-700 d-3xl-block mt-4">0123456789</span>
+                                            </div>
+                                            <!-- end article mst -->
+
+                                            <!-- social -->
+                                            <ul class="social-primary d-3xl-flex items-center gap-10 mt-12">
+                                                <li class="social-primary__item">
+                                                    <a href="#" class="social-primary__link">
+                                                        <img src="./images/svg/fb-gray.svg" alt="">
+                                                    </a>
+                                                </li>
+                                                <li class="social-primary__item">
+                                                    <a href="#" class="social-primary__link">
+                                                        <img src="./images/svg/linked-gray.svg" alt="">
+                                                    </a>
+                                                </li>
+                                                <li class="social-primary__item">
+                                                    <a href="#" class="social-primary__link">
+                                                        <img src="./images/svg/ytb-gray.svg" alt="">
+                                                    </a>
+                                                </li>
+                                                
+                                            </ul>
+                                            <!-- end social -->
+
+                                            <div class="see-more-primary d-3xl-none d-md-block mt-10">
+                                                <a href="#" class="see-more-primary__link d-3xl-inline-flex items-center fs-16 text-gray-66">
+                                                    <span class="text flex-1 d-3xl-inline-block">Xem chi tiết</span>
+                                                    <div class="icon flex-0 icon-12 ml-10">
+                                                        <img src="./images/svg/arrow-next-gray.svg" alt="" class="icon-next">
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <!-- end content -->
+                                    </div>
+                                    <!-- end article -->
+                                </div>
+                                <!-- end detail content secondary top -->
+                                <div id="explus-editor">
+                                    <p>Ông Nguyễn Minh A là doanh nhân hoạt động trong lĩnh vực công nghệ thông tin và chuyển đổi số doanh nghiệp. Với hơn 15 năm kinh nghiệm điều hành và phát triển doanh nghiệp, ông đã tham gia nhiều dự án ứng dụng công nghệ cho các tổ chức và doanh nghiệp tại Việt Nam.</p>
+                                    <h2>Thông tin cá nhân</h2>
+                                    <ul>
+                                        <li><strong>Chức danh: </strong>Chủ tịch HĐQT kiêm Tổng Giám đốc</li>
+                                        <li><strong>Công ty: </strong>Công ty Cổ phần Công nghệ ABC</li>
+                                        <li><strong>Ngành nghề: </strong>Công nghệ thông tin</li>
+                                        <li><strong>Địa điểm: </strong>TP. Đà Nẵng</li>
+                                        <li><strong>Website: </strong>www.abcgroup.vn</li>
+                                        <li><strong>LinkedIn: </strong>linkedin.com/in/nguyenminha</li>
+                                    </ul>
+                                    <div style="margin-top: 30px;margin-bottom: 30px;border-bottom: 1px solid #d9d9d9;"></div>
+                                    <h2>Hành trình sự nghiệp</h2>
+                                    <p>Từ năm 2010, ông Nguyễn Minh A bắt đầu hoạt động trong lĩnh vực công nghệ và giải pháp số. Năm 2018, ông sáng lập Công ty Cổ phần Công nghệ ABC với định hướng phát triển các nền tảng chuyển đổi số dành cho doanh nghiệp vừa và nhỏ.</p>
+                                    <h3>Thành tựu nổi bật</h3>
+                                    <ul>
+                                        <li>Top 10 Doanh nhân trẻ tiêu biểu năm 2023</li>
+                                        <li>Diễn giả tại Diễn đàn Chuyển đổi số Quốc gia</li>
+                                        <li>Triển khai thành công hơn 500 dự án công nghệ cho doanh nghiệp</li>
+                                        <li>Đóng góp tích cực cho hoạt động kết nối hội viên Doanh nhân trẻ</li>
+                                    </ul>
+                                    <h3>Bài viết & Phỏng vấn liên quan</h3>
+                                    <ul>
+                                        <li>Chuyển đổi số trong doanh nghiệp vừa và nhỏ</li>
+                                        <li>Vai trò của AI trong quản trị doanh nghiệp</li>
+                                        <li>Tư duy lãnh đạo trong thời đại số</li>
+                                    </ul>
+                                    <div style="margin-top: 30px;margin-bottom: 30px;border-bottom: 1px solid #d9d9d9;"></div>
+                                    <h2>Thông tin doanh nghiệp</h2>
+                                    <h3>Công ty Cổ phần Công nghệ ABC</h3>
+                                    <p><strong>Mã số thuế: </strong>0312XXXXXX</p>
+                                    <h3>Lĩnh vực hoạt động:</h3>
+                                    <ul>
+                                        <li>Phát triển phần mềm</li>
+                                        <li>Chuyển đổi số doanh nghiệp</li>
+                                        <li>AI và dữ liệu</li>
+                                        <li>Tư vấn công nghệ</li>
+                                    </ul>
+                                    <h3>Quy mô doanh nghiệp:</h3>
+                                    <ul>
+                                        <li>Hơn 300 nhân sự</li>
+                                        <li>03 văn phòng trên toàn quốc</li>
+                                    </ul>
+                                    <h3>Sản phẩm & Dịch vụ:</h3>
+                                    <ul>
+                                        <li>Hệ thống ERP</li>
+                                        <li>CRM doanh nghiệp</li>
+                                        <li>Nền tảng quản trị dữ liệu</li>
+                                        <li>Giải pháp AI cho doanh nghiệp</li>
+                                    </ul>
+                                    <div style="margin-top: 30px;margin-bottom: 30px;border-bottom: 1px solid #d9d9d9;"></div>
+                                    <h2 class="lock">Nội dung chuyên sâu</h2>
+                                    <h3>Dành cho Hội viên số Tiêu chuẩn trở lên</h3>
+                                    <ul>
+                                        <li>Bài phỏng vấn chuyên sâu</li>
+                                        <li>Video chia sẻ kinh nghiệm điều hành</li>
+                                        <li>Những bài học thành công và thất bại</li>
+                                        <li>Góc nhìn chiến lược về thị trường</li>
+                                    </ul>
+                                    <p>( Vui lòng <a href="#">đăng nhập/đăng ký</a> để tiếp tục )</p>
+                                    <div style="margin-top: 30px;margin-bottom: 30px;border-bottom: 1px solid #d9d9d9;"></div>
+                                    <h2 class="lock">Kết nối hợp tác</h2>
+                                    <h3>Dành cho Hội viên số cao cấp</h3>
+                                    <ul>
+                                        <li>Nhu cầu hợp tác đầu tư</li>
+                                        <li>Nhu cầu tìm kiếm đối tác</li>
+                                        <li>Định hướng mở rộng thị trường</li>
+                                        <li>Mạng lưới kết nối chuyên môn</li>
+                                    </ul>
+                                    <p>( Vui lòng <a href="#">nâng cấp</a> quyền truy cập để xem đầy đủ )</p>
+                                </div>
+
+                            </div>
+                            <!-- end detail content-->
+                        </div>
+                    </div>
+                    <!-- end left -->
+                    
+                    <!-- right -->
+                    <div class="detail-primary__right block-quaternary__right mt-md-20">
+                        <!-- box nine -->
+                        <div class="box-nine">
+                            <!-- heading -->
+                            <div class="box-nine__heading">
+                                <h2 class="fs-18 text-gray-33 fw-700 uppercase pb-10">Doanh nhân khác</h2>
+                            </div>
+                            <!-- end heading -->
+
+                            <!-- content -->
+                            <div class="box-nine__content mt-md-20">
+                                <!-- article list -->
+                                <div class="article-list last-article">
+                                    <!-- article -->
+                                    <div class="article py-20 border-b-d9">
+                                        <!-- img -->
+                                        <div class="article-img">
+                                            <a href="#" class="ratio-3x2">
+                                                <img src="./images/2.jpg" alt="">
+                                            </a>
+                                        </div>
+                                        <!-- end img -->
+                                        <!-- content -->
+                                        <div class="article-content pt-20">
+                                            <!-- article name -->
+                                            <div class="article-name text-gray-33">
+                                                <h2 class="text-1 font-merri fs-20 fs-md-18 fw-700 d-3xl-block">Nguyễn Minh A</h2>
+                                                <span class="text-2 fs-18 fs-md-16 fw-600 d-3xl-block mt-8">Tổng giám đốc cty ABV</span>
+                                            </div>
+                                            <!-- end article name -->
+
+                                            <!-- article info -->
+                                            <div class="article-info mt-12">
+                                                <!-- item -->
+                                                <div class="article-info__item py-4 d-3xl-flex items-center gap-10">
+                                                    <div class="icon icon-16 w-20px flex-0">
+                                                        <img src="./images/svg/icon-1-gray.svg" alt="">
+                                                    </div>
+                                                    <span class="d-3xl-block flex-1 fs-17 fs-md-15 text-gray-33">Hà Nội</span>
+                                                </div>
+                                                <!-- end item -->
+                                                <!-- item -->
+                                                <div class="article-info__item py-4 d-3xl-flex items-center gap-10">
+                                                    <div class="icon icon-16 w-20px flex-0">
+                                                        <img src="./images/svg/icon-2-gray.svg" alt="">
+                                                    </div>
+                                                    <span class="d-3xl-block flex-1 fs-17 fs-md-15 text-gray-33">Logistic & vận tải</span>
+                                                </div>
+                                                <!-- end item -->
+                                                <!-- item -->
+                                                <div class="article-info__item py-4 d-3xl-flex items-center gap-10">
+                                                    <div class="icon icon-16 w-20px flex-0">
+                                                        <img src="./images/svg/icon-3-gray.svg" alt="">
+                                                    </div>
+                                                    <span class="d-3xl-block flex-1 fs-17 fs-md-15 text-gray-33">Sinh năm 1989</span>
+                                                </div>
+                                                <!-- end item -->
+                                            </div>
+                                            <!-- end article info -->
+                                            
+
+                                            <!-- social -->
+                                            <ul class="social-primary d-3xl-flex items-center gap-10 mt-12">
+                                                <li class="social-primary__item">
+                                                    <a href="#" class="social-primary__link">
+                                                        <img src="./images/svg/fb-gray.svg" alt="">
+                                                    </a>
+                                                </li>
+                                                <li class="social-primary__item">
+                                                    <a href="#" class="social-primary__link">
+                                                        <img src="./images/svg/linked-gray.svg" alt="">
+                                                    </a>
+                                                </li>
+                                                <li class="social-primary__item">
+                                                    <a href="#" class="social-primary__link">
+                                                        <img src="./images/svg/ytb-gray.svg" alt="">
+                                                    </a>
+                                                </li>
+                                                
+                                            </ul>
+                                            <!-- end social -->
+
+                                            <div class="see-more-primary mt-10">
+                                                <a href="#" class="see-more-primary__link d-3xl-inline-flex items-center fs-16 text-gray-66">
+                                                    <span class="text flex-1 d-3xl-inline-block">Xem chi tiết</span>
+                                                    <div class="icon flex-0 icon-12 ml-10">
+                                                        <img src="./images/svg/arrow-next-gray.svg" alt="" class="icon-next">
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <!-- end content -->
+                                    </div>
+                                    <!-- end article -->
+                                    <!-- article -->
+                                    <div class="article py-20 border-b-d9">
+                                        <!-- img -->
+                                        <div class="article-img">
+                                            <a href="#" class="ratio-3x2">
+                                                <img src="./images/2.jpg" alt="">
+                                            </a>
+                                        </div>
+                                        <!-- end img -->
+                                        <!-- content -->
+                                        <div class="article-content pt-20">
+                                            <!-- article name -->
+                                            <div class="article-name text-gray-33">
+                                                <h2 class="text-1 font-merri fs-20 fs-md-18 fw-700 d-3xl-block">Nguyễn Minh A</h2>
+                                                <span class="text-2 fs-18 fs-md-16 fw-600 d-3xl-block mt-8">Tổng giám đốc cty ABV</span>
+                                            </div>
+                                            <!-- end article name -->
+
+                                            <!-- article info -->
+                                            <div class="article-info mt-12">
+                                                <!-- item -->
+                                                <div class="article-info__item py-4 d-3xl-flex items-center gap-10">
+                                                    <div class="icon icon-16 w-20px flex-0">
+                                                        <img src="./images/svg/icon-1-gray.svg" alt="">
+                                                    </div>
+                                                    <span class="d-3xl-block flex-1 fs-17 fs-md-15 text-gray-33">Hà Nội</span>
+                                                </div>
+                                                <!-- end item -->
+                                                <!-- item -->
+                                                <div class="article-info__item py-4 d-3xl-flex items-center gap-10">
+                                                    <div class="icon icon-16 w-20px flex-0">
+                                                        <img src="./images/svg/icon-2-gray.svg" alt="">
+                                                    </div>
+                                                    <span class="d-3xl-block flex-1 fs-17 fs-md-15 text-gray-33">Logistic & vận tải</span>
+                                                </div>
+                                                <!-- end item -->
+                                                <!-- item -->
+                                                <div class="article-info__item py-4 d-3xl-flex items-center gap-10">
+                                                    <div class="icon icon-16 w-20px flex-0">
+                                                        <img src="./images/svg/icon-3-gray.svg" alt="">
+                                                    </div>
+                                                    <span class="d-3xl-block flex-1 fs-17 fs-md-15 text-gray-33">Sinh năm 1989</span>
+                                                </div>
+                                                <!-- end item -->
+                                            </div>
+                                            <!-- end article info -->
+                                            
+
+                                            <!-- social -->
+                                            <ul class="social-primary d-3xl-flex items-center gap-10 mt-12">
+                                                <li class="social-primary__item">
+                                                    <a href="#" class="social-primary__link">
+                                                        <img src="./images/svg/fb-gray.svg" alt="">
+                                                    </a>
+                                                </li>
+                                                <li class="social-primary__item">
+                                                    <a href="#" class="social-primary__link">
+                                                        <img src="./images/svg/linked-gray.svg" alt="">
+                                                    </a>
+                                                </li>
+                                                <li class="social-primary__item">
+                                                    <a href="#" class="social-primary__link">
+                                                        <img src="./images/svg/ytb-gray.svg" alt="">
+                                                    </a>
+                                                </li>
+                                                
+                                            </ul>
+                                            <!-- end social -->
+
+                                            <div class="see-more-primary mt-10">
+                                                <a href="#" class="see-more-primary__link d-3xl-inline-flex items-center fs-16 text-gray-66">
+                                                    <span class="text flex-1 d-3xl-inline-block">Xem chi tiết</span>
+                                                    <div class="icon flex-0 icon-12 ml-10">
+                                                        <img src="./images/svg/arrow-next-gray.svg" alt="" class="icon-next">
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <!-- end content -->
+                                    </div>
+                                    <!-- end article -->
+                                    <!-- article -->
+                                    <div class="article py-20 border-b-d9">
+                                        <!-- img -->
+                                        <div class="article-img">
+                                            <a href="#" class="ratio-3x2">
+                                                <img src="./images/2.jpg" alt="">
+                                            </a>
+                                        </div>
+                                        <!-- end img -->
+                                        <!-- content -->
+                                        <div class="article-content pt-20">
+                                            <!-- article name -->
+                                            <div class="article-name text-gray-33">
+                                                <h2 class="text-1 font-merri fs-20 fs-md-18 fw-700 d-3xl-block">Nguyễn Minh A</h2>
+                                                <span class="text-2 fs-18 fs-md-16 fw-600 d-3xl-block mt-8">Tổng giám đốc cty ABV</span>
+                                            </div>
+                                            <!-- end article name -->
+
+                                            <!-- article info -->
+                                            <div class="article-info mt-12">
+                                                <!-- item -->
+                                                <div class="article-info__item py-4 d-3xl-flex items-center gap-10">
+                                                    <div class="icon icon-16 w-20px flex-0">
+                                                        <img src="./images/svg/icon-1-gray.svg" alt="">
+                                                    </div>
+                                                    <span class="d-3xl-block flex-1 fs-17 fs-md-15 text-gray-33">Hà Nội</span>
+                                                </div>
+                                                <!-- end item -->
+                                                <!-- item -->
+                                                <div class="article-info__item py-4 d-3xl-flex items-center gap-10">
+                                                    <div class="icon icon-16 w-20px flex-0">
+                                                        <img src="./images/svg/icon-2-gray.svg" alt="">
+                                                    </div>
+                                                    <span class="d-3xl-block flex-1 fs-17 fs-md-15 text-gray-33">Logistic & vận tải</span>
+                                                </div>
+                                                <!-- end item -->
+                                                <!-- item -->
+                                                <div class="article-info__item py-4 d-3xl-flex items-center gap-10">
+                                                    <div class="icon icon-16 w-20px flex-0">
+                                                        <img src="./images/svg/icon-3-gray.svg" alt="">
+                                                    </div>
+                                                    <span class="d-3xl-block flex-1 fs-17 fs-md-15 text-gray-33">Sinh năm 1989</span>
+                                                </div>
+                                                <!-- end item -->
+                                            </div>
+                                            <!-- end article info -->
+                                            
+
+                                            <!-- social -->
+                                            <ul class="social-primary d-3xl-flex items-center gap-10 mt-12">
+                                                <li class="social-primary__item">
+                                                    <a href="#" class="social-primary__link">
+                                                        <img src="./images/svg/fb-gray.svg" alt="">
+                                                    </a>
+                                                </li>
+                                                <li class="social-primary__item">
+                                                    <a href="#" class="social-primary__link">
+                                                        <img src="./images/svg/linked-gray.svg" alt="">
+                                                    </a>
+                                                </li>
+                                                <li class="social-primary__item">
+                                                    <a href="#" class="social-primary__link">
+                                                        <img src="./images/svg/ytb-gray.svg" alt="">
+                                                    </a>
+                                                </li>
+                                                
+                                            </ul>
+                                            <!-- end social -->
+
+                                            <div class="see-more-primary mt-10">
+                                                <a href="#" class="see-more-primary__link d-3xl-inline-flex items-center fs-16 text-gray-66">
+                                                    <span class="text flex-1 d-3xl-inline-block">Xem chi tiết</span>
+                                                    <div class="icon flex-0 icon-12 ml-10">
+                                                        <img src="./images/svg/arrow-next-gray.svg" alt="" class="icon-next">
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <!-- end content -->
+                                    </div>
+                                    <!-- end article -->
+                                    <!-- article -->
+                                    <div class="article py-20 border-b-d9">
+                                        <!-- img -->
+                                        <div class="article-img">
+                                            <a href="#" class="ratio-3x2">
+                                                <img src="./images/2.jpg" alt="">
+                                            </a>
+                                        </div>
+                                        <!-- end img -->
+                                        <!-- content -->
+                                        <div class="article-content pt-20">
+                                            <!-- article name -->
+                                            <div class="article-name text-gray-33">
+                                                <h2 class="text-1 font-merri fs-20 fs-md-18 fw-700 d-3xl-block">Nguyễn Minh A</h2>
+                                                <span class="text-2 fs-18 fs-md-16 fw-600 d-3xl-block mt-8">Tổng giám đốc cty ABV</span>
+                                            </div>
+                                            <!-- end article name -->
+
+                                            <!-- article info -->
+                                            <div class="article-info mt-12">
+                                                <!-- item -->
+                                                <div class="article-info__item py-4 d-3xl-flex items-center gap-10">
+                                                    <div class="icon icon-16 w-20px flex-0">
+                                                        <img src="./images/svg/icon-1-gray.svg" alt="">
+                                                    </div>
+                                                    <span class="d-3xl-block flex-1 fs-17 fs-md-15 text-gray-33">Hà Nội</span>
+                                                </div>
+                                                <!-- end item -->
+                                                <!-- item -->
+                                                <div class="article-info__item py-4 d-3xl-flex items-center gap-10">
+                                                    <div class="icon icon-16 w-20px flex-0">
+                                                        <img src="./images/svg/icon-2-gray.svg" alt="">
+                                                    </div>
+                                                    <span class="d-3xl-block flex-1 fs-17 fs-md-15 text-gray-33">Logistic & vận tải</span>
+                                                </div>
+                                                <!-- end item -->
+                                                <!-- item -->
+                                                <div class="article-info__item py-4 d-3xl-flex items-center gap-10">
+                                                    <div class="icon icon-16 w-20px flex-0">
+                                                        <img src="./images/svg/icon-3-gray.svg" alt="">
+                                                    </div>
+                                                    <span class="d-3xl-block flex-1 fs-17 fs-md-15 text-gray-33">Sinh năm 1989</span>
+                                                </div>
+                                                <!-- end item -->
+                                            </div>
+                                            <!-- end article info -->
+                                            
+
+                                            <!-- social -->
+                                            <ul class="social-primary d-3xl-flex items-center gap-10 mt-12">
+                                                <li class="social-primary__item">
+                                                    <a href="#" class="social-primary__link">
+                                                        <img src="./images/svg/fb-gray.svg" alt="">
+                                                    </a>
+                                                </li>
+                                                <li class="social-primary__item">
+                                                    <a href="#" class="social-primary__link">
+                                                        <img src="./images/svg/linked-gray.svg" alt="">
+                                                    </a>
+                                                </li>
+                                                <li class="social-primary__item">
+                                                    <a href="#" class="social-primary__link">
+                                                        <img src="./images/svg/ytb-gray.svg" alt="">
+                                                    </a>
+                                                </li>
+                                                
+                                            </ul>
+                                            <!-- end social -->
+
+                                            <div class="see-more-primary mt-10">
+                                                <a href="#" class="see-more-primary__link d-3xl-inline-flex items-center fs-16 text-gray-66">
+                                                    <span class="text flex-1 d-3xl-inline-block">Xem chi tiết</span>
+                                                    <div class="icon flex-0 icon-12 ml-10">
+                                                        <img src="./images/svg/arrow-next-gray.svg" alt="" class="icon-next">
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <!-- end content -->
+                                    </div>
+                                    <!-- end article -->
+                                </div>
+                                <!-- end article list -->
+                            </div>
+                            <!-- end content -->
+                        </div>
+                        <!-- end box nine -->
+                    </div>
+                    <!-- end right -->
+                </div>
+            </section>
+            <!-- end primary -->
+        </main>
+        <!-- end main -->
+        <!-- footer -->
+        <footer id="footer" class="footer w-wrapper z-20 relative py-40 bg-white">
+            <!-- footer container -->
+            <div class="footer-container w-1280 mt-40">
+                <!-- logo -->
+                <a href="#" class="footer-logo logo-img">
+                    <img src="./images/svg/logo.svg" alt="">
+                </a>
+                <!-- end logo -->
+
+                <!-- top -->
+                <div class="footer-top d-3xl-flex d-md-block gap-80 mt-40 mb-40 pb-40 pb-md-20 mb-md-20 border-b-d9">
+                    <!-- info -->
+                    <div class="footer-info flex-1">
+                        <!-- heading -->
+                        <div class="footer-info__heading fs-24 fs-md-18 fw-700 text-gray-33 uppercase">
+                            <span>Tạp chí điện tử doanh nhân trẻ</span>
+                        </div>
+                        <!-- end heading -->
+
+                        <!-- list -->
+                        <ul class="footer-info__list mt-20">
+                            <!-- item -->
+                            <li class="footer-info__item d-3xl-flex items-center gap-10 py-8">
+                                <div class="icon icon-20 icon-md-18 flex-0">
+                                    <img src="./images/svg/home-orange.svg" alt="">
+                                </div>
+
+                                <div class="d-3xl-flex items-center fs-16 fs-md-14 text-gray-33 flex-1">
+                                    <span class="fw-700 d-3xl-inline-block mr-10">Địa chỉ: </span><span>347 Đội Cấn, phường Ngọc Hà, Hà Nội</span>
+                                </div>
+                            </li>
+                            <!-- end item -->
+                            <!-- item -->
+                            <li class="footer-info__item d-3xl-flex items-center gap-10 py-8">
+                                <div class="icon icon-20 icon-md-18 flex-0">
+                                    <img src="./images/svg/phone-orange.svg" alt="">
+                                </div>
+
+                                <div class="d-3xl-flex items-center fs-16 fs-md-14 text-gray-33 flex-1">
+                                    <span class="fw-700 d-3xl-inline-block mr-10">Điện thoại: </span><span>0941987799</span>
+                                </div>
+                            </li>
+                            <!-- end item -->
+                            <!-- item -->
+                            <li class="footer-info__item d-3xl-flex items-center gap-10 py-8">
+                                <div class="icon icon-20 icon-md-18 flex-0">
+                                    <img src="./images/svg/location-orange.svg" alt="">
+                                </div>
+
+                                <div class="d-3xl-flex items-center fs-16 fs-md-14 text-gray-33 flex-1">
+                                    <span class="fw-700 d-3xl-inline-block mr-10">Văn phòng phía Nam: </span><span>Số 4 Trần Nhật Duật, phường Tân Định, TP.HCM</span>
+                                </div>
+                            </li>
+                            <!-- end item -->
+                            <!-- item -->
+                            <li class="footer-info__item d-3xl-flex items-center gap-10 py-8">
+                                <div class="icon icon-20 icon-md-18 flex-0">
+                                    <img src="./images/svg/phone-orange.svg" alt="">
+                                </div>
+
+                                <div class="d-3xl-flex items-center fs-16 fs-md-14 text-gray-33 flex-1">
+                                    <span class="fw-700 d-3xl-inline-block mr-10">Điện thoại: </span><span>0941987799</span>
+                                </div>
+                            </li>
+                            <!-- end item -->
+                            <!-- item -->
+                            <li class="footer-info__item d-3xl-flex items-center gap-10 py-8">
+                                <div class="icon icon-20 icon-md-18 flex-0">
+                                    <img src="./images/svg/email-orange.svg" alt="">
+                                </div>
+
+                                <div class="d-3xl-flex items-center fs-16 fs-md-14 text-gray-33 flex-1">
+                                    <span class="fw-700 d-3xl-inline-block mr-10">Email: </span><span>tapchidoanhnhantrevn@gmail.com</span>
+                                </div>
+                            </li>
+                            <!-- end item -->
+                            <!-- item -->
+                            <li class="footer-info__item d-3xl-flex items-center gap-10 py-8">
+                                <div class="icon icon-20 icon-md-18 flex-0">
+                                    <img src="./images/svg/phone-orange.svg" alt="">
+                                </div>
+
+                                <div class="d-3xl-flex items-center fs-16 fs-md-14 text-gray-33 flex-1">
+                                    <span class="fw-700 d-3xl-inline-block mr-10">Liên hệ quảng cáo: </span><span>0941987799</span>
+                                </div>
+                            </li>
+                            <!-- end item -->
+                        </ul>
+                        <!-- end list -->
+                    </div>
+                    <!-- end info -->
+
+                    <!-- list cate -->
+                    <div class="footer-cate flex-1 mt-md-20">
+                        <!-- heading -->
+                        <div class="footer-cate__heading fs-24 fs-md-18 fw-700 text-gray-33">
+                            <span>Chuyên mục & chủ đề</span>
+                        </div>
+                        <!-- end heading -->
+
+                        <!-- list -->
+                        <ul class="footer-cate__list d-3xl-grid col-2 gap-20 gap-md-10 mt-20">
+                            <!-- item -->
+                             <li class="footer-cate__item fs-16 fs-md-14 text-gray-33">
+                                <a href="#" class="footer-cate__link py-8 d-3xl-flex items-center">Chính sách & Thị Trường</a>
+                             </li>
+                            <!-- end item -->
+                            <!-- item -->
+                             <li class="footer-cate__item fs-16 fs-md-14 text-gray-33">
+                                <a href="#" class="footer-cate__link py-8 d-3xl-flex items-center">Văn hóa doanh nhân</a>
+                             </li>
+                            <!-- end item -->
+                            <!-- item -->
+                             <li class="footer-cate__item fs-16 fs-md-14 text-gray-33">
+                                <a href="#" class="footer-cate__link py-8 d-3xl-flex items-center">Kết nối doanh nhân</a>
+                             </li>
+                            <!-- end item -->
+                            <!-- item -->
+                             <li class="footer-cate__item fs-16 fs-md-14 text-gray-33">
+                                <a href="#" class="footer-cate__link py-8 d-3xl-flex items-center">Hội đồng biên tập</a>
+                             </li>
+                            <!-- end item -->
+                            <!-- item -->
+                             <li class="footer-cate__item fs-16 fs-md-14 text-gray-33">
+                                <a href="#" class="footer-cate__link py-8 d-3xl-flex items-center">Chân dung doanh nhân</a>
+                             </li>
+                            <!-- end item -->
+                            <!-- item -->
+                             <li class="footer-cate__item fs-16 fs-md-14 text-gray-33">
+                                <a href="#" class="footer-cate__link py-8 d-3xl-flex items-center">Dự liệu doanh nhân trẻ Việt Nam</a>
+                             </li>
+                            <!-- end item -->
+                            <!-- item -->
+                             <li class="footer-cate__item fs-16 fs-md-14 text-gray-33">
+                                <a href="#" class="footer-cate__link py-8 d-3xl-flex items-center">Khởi nghiệp & sáng tạo</a>
+                             </li>
+                            <!-- end item -->
+                            <!-- item -->
+                             <li class="footer-cate__item fs-16 fs-md-14 text-gray-33">
+                                <a href="#" class="footer-cate__link py-8 d-3xl-flex items-center">Tầm nhìn doanh nhân trẻ</a>
+                             </li>
+                            <!-- end item -->
+                            <!-- item -->
+                             <li class="footer-cate__item fs-16 fs-md-14 text-gray-33">
+                                <a href="#" class="footer-cate__link py-8 d-3xl-flex items-center">Công nghệ & chuyển đổi số</a>
+                             </li>
+                            <!-- end item -->
+                        </ul>
+                        <!-- end list -->
+                    </div>
+                    <!-- end list cate -->
+                </div>
+                <!-- end top -->
+
+                <!-- center -->
+                <div class="footer-center d-3xl-flex d-md-block gap-80">
+                    <!-- text list -->
+                    <div class="footer-text flex-1">
+                        <!-- heading -->
+                        <div class="footer-text__heading fs-20 fs-md-18 fw-700 text-gray-33 uppercase">
+                            <span>Tạp chí điện tử doanh nhân trẻ</span>
+                        </div>
+                        <!-- end heading -->
+
+                        <!-- list -->
+                        <ul class="footer-text__list mt-20">
+                            <!-- item -->
+                            <li class="footer-info__item d-3xl-flex items-center py-8 fs-16 fs-md-14 text-gray-33">
+                               <strong>Diễn đàn của Hội Doanh nhân trẻ Việt Nam</strong>
+                            </li>
+                            <!-- end item -->
+                            <!-- item -->
+                            <li class="footer-info__item d-3xl-flex items-center py-8 fs-16 fs-md-14 text-gray-33">
+                                <strong>Phụ trách điều hành: </strong>Ông Trần Đình Hưng
+                            </li>
+                            <!-- end item -->
+                            <!-- item -->
+                            <li class="footer-info__item d-3xl-flex items-center py-8 fs-16 fs-md-14 text-gray-33">
+                                Giấy phép báo chí số 551/GP-BTTTT cấp ngày 27.8.2021
+                            </li>
+                            <!-- end item -->
+                            <!-- item -->
+                            <li class="footer-info__item d-3xl-flex items-center py-8 fs-16 fs-md-14 text-gray-33">
+                                Bản quyền thuộc về Tạp chí Doanh nhân trẻ.
+                            </li>
+                            <!-- end item -->
+                            <!-- item -->
+                            <li class="footer-info__item d-3xl-flex items-center py-8 fs-16 fs-md-14 text-gray-33">
+                                Cấm sao chép dưới mọi hình thức nếu không có sự chấp thuận bằng văn bản.
+                            </li>
+                            <!-- end item -->
+                        </ul>
+                        <!-- end list -->
+                    </div>
+                    <!-- end text list -->
+
+                    <!-- social footer -->
+                    <div class="footer-social flex-1 mt-md-20">
+                        <!-- heading -->
+                        <div class="footer-social__heading fs-24 fs-md-18 fw-700 text-gray-33">
+                            <span>Theo dõi chúng tôi</span>
+                        </div>
+                        <!-- end heading -->
+
+                        <!-- list -->
+                        <ul class="footer-social__list mt-20 d-3xl-flex items-center gap-24">
+                            <li class="footer-social__item">
+                                <a href="#" class="footer-social__link">
+                                    <img src="./images/svg/fb-w.svg" alt="">
+                                </a>
+                            </li>
+                            <li class="footer-social__item">
+                                <a href="#" class="footer-social__link">
+                                    <img src="./images/svg/ytb-w.svg" alt="">
+                                </a>
+                            </li>
+                            <li class="footer-social__item">
+                                <a href="#" class="footer-social__link">
+                                    <img src="./images/svg/twitter-w.svg" alt="">
+                                </a>
+                            </li>
+                            <li class="footer-social__item">
+                                <a href="#" class="footer-social__link">
+                                    <img src="./images/svg/thred-w.svg" alt="">
+                                </a>
+                            </li>
+                        </ul>
+                        <!-- end list -->
+                    </div>
+                    <!-- end social footer -->
+                </div>
+                <!-- end center -->
+
+                <!-- bot -->
+                <div class="footer-bot d-3xl-flex items-center justify-center mt-30 fs-16 fs-md-14 text-center text-gray-c3">
+                    <span>Copyright © 2026 doanhnhantre. All rights reserved.</span>
+                </div>
+                <!-- end bot -->
+            </div>
+            <!-- end footer container -->
+            <!-- back top -->
+            <div id="back-top">
+                <img src="./images/svg/arrow-top-w.svg" alt="">
+            </div>
+            <!-- end back top -->
+
+        </footer>
+        <!-- end footer -->
+        <script src="./lib/swiper/swiper-bundle.min.js"></script>
+        <script src="./js/main.js"></script>
+    </body>
+</html>
