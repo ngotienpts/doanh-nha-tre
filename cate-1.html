@@ -1,0 +1,1913 @@
+<!DOCTYPE html>
+<html lang="vi">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- favicon -->
+        <link rel="shortcut icon" href="./images/favicon/favicon.ico" type="image/x-icon" />
+        <!-- end favicon -->
+        <title>Doanh nhân trẻ</title>
+        <!-- font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap" rel="stylesheet">
+        <!-- end font -->
+        <link rel="stylesheet" href="./lib/swiper/swiper-bundle.min.css" />
+        <link rel="stylesheet" href="./css/style.css" />
+        <script src="./lib/jquery/jquery-3.7.1.min.js"></script>
+    </head>
+
+    <body>
+        <!-- header -->
+        <header id="header" class="header relative z-50 js__stickyHeader">
+            <!-- pc -->
+            <div class="d-3xl-block d-xl-none">
+                <div class="header-desk relative z-10">
+                    <!-- top -->
+                    <div class="header-desk-top bg-white w-wrapper py-15">
+                        <div class="header-desk-top__container w-1280 w-md-500 d-3xl-flex items-center justify-between">
+                            <!-- left -->
+                            <div class="left d-3xl-flex items-center">
+                                <!-- logo -->
+                                <div class="logo d-3xl-flex items-center gap-10">
+                                    <a href="#" class="logo-img">
+                                        <img src="./images/svg/logo.svg" alt="">
+                                    </a>
+                                </div>
+                                <!-- end logo -->
+                            </div>
+                            <!-- end left -->
+
+                            <!-- right -->
+                            <div class="right d-3xl-flex items-center">
+                                <!-- btn -->
+                                <div>
+                                    <a href="#" class="btn uppercase fs-14">Liên hệ quảng cáo</a>
+                                </div>
+                                <!-- end btn -->
+
+                                <!-- search pc -->
+                                <div class="search-desk js__searchDesk ml-24 pl-20 border-l-d9 relative">
+                                    <div class="search-desk__icon js__searchIconDesk pointer bg-white">
+                                        <img src="./images/svg/search-gray.svg" alt="">
+                                    </div>
+                                    <div class="search-desk__content js__searchContentDesk">
+                                        <form action="search-desk__form">
+                                            <div class="search-desk__group">
+                                                <input type="text" class="search-desk__input js__searchInputDesk" placeholder="Tìm kiếm...">
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                                <!-- end search pc -->
+
+                            </div>
+                            <!-- end right -->
+                        </div>
+                    </div>
+                    <!-- end top -->
+
+                    <!-- menu -->
+                    <div class="header-desk-menu bg-white w-wrapper relative bg-white border-t-d9 border-b-d9">
+                        <div class="header-desk-menu__container w-1280 w-md-500 d-3xl-flex items-center justify-between">
+                            <!-- navbar -->
+                            <nav class="navbar flex-1">
+                                <ul class="navbar-wrapper d-3xl-flex items-center justify-between">
+                                    <!-- item -->
+                                    <li class="navbar-item">
+                                        <div class="navbar-item__heading d-3xl-flex items-center fw-400 fs-16">
+                                            <a href="#" class="navbar-item__text flex-1 d-3xl-inline-block text-gray-33">Chính sách & Thị Trường</a>
+                                        </div>
+                                        <ul class="navbar-dropdown fs-14 scroll">
+                                            <li class="navbar-dropdown__item">
+                                                <a href="#" class="navbar-dropdown__link">Trong nước</a>
+                                            </li>
+                                            <li class="navbar-dropdown__item">
+                                                <a href="#" class="navbar-dropdown__link">Quốc tế</a>
+                                            </li>
+                                            <li class="navbar-dropdown__item">
+                                                <a href="#" class="navbar-dropdown__link">Tin phật sự</a>
+                                            </li>
+                                            <li class="navbar-dropdown__item">
+                                                <a href="#" class="navbar-dropdown__link">Tin mới</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <!-- end item -->
+                                    <!-- item -->
+                                    <li class="navbar-item">
+                                        <div class="navbar-item__heading d-3xl-flex items-center fw-400 fs-16">
+                                            <a href="#" class="navbar-item__text flex-1 d-3xl-inline-block text-gray-33">Kết nối doanh nhân</a>
+                                        </div>
+                                        <ul class="navbar-dropdown fs-14 scroll">
+                                            <li class="navbar-dropdown__item">
+                                                <a href="#" class="navbar-dropdown__link">Trong nước</a>
+                                            </li>
+                                            <li class="navbar-dropdown__item">
+                                                <a href="#" class="navbar-dropdown__link">Quốc tế</a>
+                                            </li>
+                                            <li class="navbar-dropdown__item">
+                                                <a href="#" class="navbar-dropdown__link">Tin phật sự</a>
+                                            </li>
+                                            <li class="navbar-dropdown__item">
+                                                <a href="#" class="navbar-dropdown__link">Tin mới</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <!-- end item -->
+                                    <!-- item -->
+                                    <li class="navbar-item">
+                                        <div class="navbar-item__heading d-3xl-flex items-center fw-400 fs-16">
+                                            <a href="#" class="navbar-item__text flex-1 d-3xl-inline-block text-gray-33">Khởi nghiệp & sáng tạo</a>
+                                        </div>
+                                        <ul class="navbar-dropdown fs-14 scroll">
+                                            <li class="navbar-dropdown__item">
+                                                <a href="#" class="navbar-dropdown__link">Trong nước</a>
+                                            </li>
+                                            <li class="navbar-dropdown__item">
+                                                <a href="#" class="navbar-dropdown__link">Quốc tế</a>
+                                            </li>
+                                            <li class="navbar-dropdown__item">
+                                                <a href="#" class="navbar-dropdown__link">Tin phật sự</a>
+                                            </li>
+                                            <li class="navbar-dropdown__item">
+                                                <a href="#" class="navbar-dropdown__link">Tin mới</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <!-- end item -->
+                                    <!-- item -->
+                                    <li class="navbar-item">
+                                        <div class="navbar-item__heading d-3xl-flex items-center fw-400 fs-16">
+                                            <a href="#" class="navbar-item__text flex-1 d-3xl-inline-block text-gray-33">Chân dung doanh nhân</a>
+                                        </div>
+                                        <ul class="navbar-dropdown fs-14 scroll">
+                                            <li class="navbar-dropdown__item">
+                                                <a href="#" class="navbar-dropdown__link">Trong nước</a>
+                                            </li>
+                                            <li class="navbar-dropdown__item">
+                                                <a href="#" class="navbar-dropdown__link">Quốc tế</a>
+                                            </li>
+                                            <li class="navbar-dropdown__item">
+                                                <a href="#" class="navbar-dropdown__link">Tin phật sự</a>
+                                            </li>
+                                            <li class="navbar-dropdown__item">
+                                                <a href="#" class="navbar-dropdown__link">Tin mới</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <!-- end item -->
+                                    <!-- item -->
+                                    <li class="navbar-item">
+                                        <div class="navbar-item__heading d-3xl-flex items-center fw-400 fs-16">
+                                            <a href="#" class="navbar-item__text flex-1 d-3xl-inline-block text-gray-33">Công nghệ & chuyển đối số</a>
+                                        </div>
+                                        <ul class="navbar-dropdown fs-14 scroll">
+                                            <li class="navbar-dropdown__item">
+                                                <a href="#" class="navbar-dropdown__link">Trong nước</a>
+                                            </li>
+                                            <li class="navbar-dropdown__item">
+                                                <a href="#" class="navbar-dropdown__link">Quốc tế</a>
+                                            </li>
+                                            <li class="navbar-dropdown__item">
+                                                <a href="#" class="navbar-dropdown__link">Tin phật sự</a>
+                                            </li>
+                                            <li class="navbar-dropdown__item">
+                                                <a href="#" class="navbar-dropdown__link">Tin mới</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <!-- end item -->
+                                    <!-- item -->
+                                    <li class="navbar-item">
+                                        <div class="navbar-item__heading d-3xl-flex items-center fw-400 fs-16">
+                                            <a href="#" class="navbar-item__text flex-1 d-3xl-inline-block text-gray-33">Dự liệu doanh nhân trẻ</a>
+                                        </div>
+                                        <ul class="navbar-dropdown fs-14 scroll">
+                                            <li class="navbar-dropdown__item">
+                                                <a href="#" class="navbar-dropdown__link">Trong nước</a>
+                                            </li>
+                                            <li class="navbar-dropdown__item">
+                                                <a href="#" class="navbar-dropdown__link">Quốc tế</a>
+                                            </li>
+                                            <li class="navbar-dropdown__item">
+                                                <a href="#" class="navbar-dropdown__link">Tin phật sự</a>
+                                            </li>
+                                            <li class="navbar-dropdown__item">
+                                                <a href="#" class="navbar-dropdown__link">Tin mới</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <!-- end item -->
+                                    <!-- item -->
+                                    <li class="navbar-item">
+                                        <div class="navbar-item__heading d-3xl-flex items-center fw-400 fs-16">
+                                            <a href="#" class="navbar-item__text flex-1 d-3xl-inline-block text-gray-33">Hội đồng biên tập</a>
+                                        </div>
+                                        <ul class="navbar-dropdown fs-14 scroll">
+                                            <li class="navbar-dropdown__item">
+                                                <a href="#" class="navbar-dropdown__link">Trong nước</a>
+                                            </li>
+                                            <li class="navbar-dropdown__item">
+                                                <a href="#" class="navbar-dropdown__link">Quốc tế</a>
+                                            </li>
+                                            <li class="navbar-dropdown__item">
+                                                <a href="#" class="navbar-dropdown__link">Tin phật sự</a>
+                                            </li>
+                                            <li class="navbar-dropdown__item">
+                                                <a href="#" class="navbar-dropdown__link">Tin mới</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <!-- end item -->
+                                </ul>
+                            </nav>
+                            <!-- end navbar -->
+                        </div>
+                    </div>
+                    <!-- end menu -->
+                </div>
+            </div>
+            <!-- end pc -->
+             
+            <!-- mb -->
+            <div class="d-3xl-none d-xl-block">
+                <div class="header-mb relative z-10 border-b-d9">
+                    <!-- bot -->
+                    <div class="header-mb-bot w-wrapper bg-white">
+                        <div class="header-mb-bot__container w-1280 d-3xl-flex items-center justify-between py-12">
+                            <!-- left -->
+                            <div class="left flex-1">
+                                <!-- submenu -->
+                                <div class="sub-menu">
+                                    <!-- icon bar -->
+                                    <div class="icon-bar js__clickShowMenuMb">
+                                        <img src="./images/svg/bar-black.svg" alt="">
+                                    </div>
+                                    <!-- end icon bar -->
+                                    <!-- content -->
+                                    <div class="sub-menu__content">
+                                        <!-- close -->
+                                        <div class="sub-menu__close js__closeSubMenu d-3xl-flex items-center">
+                                            <img src="./images/svg/close-gray.svg" alt="">
+                                        </div>
+                                        <!-- end close -->
+            
+                                        <div class="sub-menu__container">
+                                            <!-- list -->
+                                            <div class="sub-menu__list">
+                                                <!-- item -->
+                                                <div class="sub-menu__item px-20">
+                                                    <!-- heading -->
+                                                    <div class="heading-sub d-3xl-flex items-center justify-between py-15 text-gray-2b">
+                                                        <h3 class="heading-sub__title fs-15 fw-500">
+                                                            <a href="#">Chính sách & Thị trường</a>
+                                                        </h3>
+                                                        <div class="heading-sub__arrow js__dropDown">
+                                                            <img src="./images/svg/arrow-down-gray.svg" alt="">
+                                                        </div>
+                                                    </div>
+                                                    <!-- end heading -->
+            
+                                                    <!-- sub menu list -->
+                                                    <ul class="list-sub js__listSubMenu">
+                                                        <li class="item-sub">
+                                                            <a href="#" class="item-sub__link fs-14">Release Calender</a>
+                                                        </li>
+                                                        <li class="item-sub">
+                                                            <a href="#" class="item-sub__link fs-14">Release Calender</a>
+                                                        </li>
+                                                        <li class="item-sub">
+                                                            <a href="#" class="item-sub__link fs-14">Release Calender</a>
+                                                        </li>
+                                                    </ul>
+                                                    <!-- end sub menu list -->
+                                                </div>
+                                                <!-- end item -->
+                                                <!-- item -->
+                                                <div class="sub-menu__item px-20">
+                                                    <!-- heading -->
+                                                    <div class="heading-sub d-3xl-flex items-center justify-between py-15 text-gray-2b">
+                                                        <h3 class="heading-sub__title fs-15 fw-500">
+                                                            <a href="#">Chính sách & Thị trường</a>
+                                                        </h3>
+                                                        <div class="heading-sub__arrow js__dropDown">
+                                                            <img src="./images/svg/arrow-down-gray.svg" alt="">
+                                                        </div>
+                                                    </div>
+                                                    <!-- end heading -->
+            
+                                                    <!-- sub menu list -->
+                                                    <ul class="list-sub js__listSubMenu">
+                                                        <li class="item-sub">
+                                                            <a href="#" class="item-sub__link fs-14">Release Calender</a>
+                                                        </li>
+                                                        <li class="item-sub">
+                                                            <a href="#" class="item-sub__link fs-14">Release Calender</a>
+                                                        </li>
+                                                        <li class="item-sub">
+                                                            <a href="#" class="item-sub__link fs-14">Release Calender</a>
+                                                        </li>
+                                                    </ul>
+                                                    <!-- end sub menu list -->
+                                                </div>
+                                                <!-- end item -->
+                                                <!-- item -->
+                                                <div class="sub-menu__item px-20">
+                                                    <!-- heading -->
+                                                    <div class="heading-sub d-3xl-flex items-center justify-between py-15 text-gray-2b">
+                                                        <h3 class="heading-sub__title fs-15 fw-500">
+                                                            <a href="#">Chính sách & Thị trường</a>
+                                                        </h3>
+                                                        <div class="heading-sub__arrow js__dropDown">
+                                                            <img src="./images/svg/arrow-down-gray.svg" alt="">
+                                                        </div>
+                                                    </div>
+                                                    <!-- end heading -->
+            
+                                                    <!-- sub menu list -->
+                                                    <ul class="list-sub js__listSubMenu">
+                                                        <li class="item-sub">
+                                                            <a href="#" class="item-sub__link fs-14">Release Calender</a>
+                                                        </li>
+                                                        <li class="item-sub">
+                                                            <a href="#" class="item-sub__link fs-14">Release Calender</a>
+                                                        </li>
+                                                        <li class="item-sub">
+                                                            <a href="#" class="item-sub__link fs-14">Release Calender</a>
+                                                        </li>
+                                                    </ul>
+                                                    <!-- end sub menu list -->
+                                                </div>
+                                                <!-- end item -->
+                                                <!-- item -->
+                                                <div class="sub-menu__item px-20">
+                                                    <!-- heading -->
+                                                    <div class="heading-sub d-3xl-flex items-center justify-between py-15 text-gray-2b">
+                                                        <h3 class="heading-sub__title fs-15 fw-500">
+                                                            <a href="#">Chính sách & Thị trường</a>
+                                                        </h3>
+                                                        <div class="heading-sub__arrow js__dropDown">
+                                                            <img src="./images/svg/arrow-down-gray.svg" alt="">
+                                                        </div>
+                                                    </div>
+                                                    <!-- end heading -->
+            
+                                                    <!-- sub menu list -->
+                                                    <ul class="list-sub js__listSubMenu">
+                                                        <li class="item-sub">
+                                                            <a href="#" class="item-sub__link fs-14">Release Calender</a>
+                                                        </li>
+                                                        <li class="item-sub">
+                                                            <a href="#" class="item-sub__link fs-14">Release Calender</a>
+                                                        </li>
+                                                        <li class="item-sub">
+                                                            <a href="#" class="item-sub__link fs-14">Release Calender</a>
+                                                        </li>
+                                                    </ul>
+                                                    <!-- end sub menu list -->
+                                                </div>
+                                                <!-- end item -->
+                                                <!-- item -->
+                                                <div class="sub-menu__item px-20">
+                                                    <!-- heading -->
+                                                    <div class="heading-sub d-3xl-flex items-center justify-between py-15 text-gray-2b">
+                                                        <h3 class="heading-sub__title fs-15 fw-500">
+                                                            <a href="#">Chính sách & Thị trường</a>
+                                                        </h3>
+                                                        <div class="heading-sub__arrow js__dropDown">
+                                                            <img src="./images/svg/arrow-down-gray.svg" alt="">
+                                                        </div>
+                                                    </div>
+                                                    <!-- end heading -->
+            
+                                                    <!-- sub menu list -->
+                                                    <ul class="list-sub js__listSubMenu">
+                                                        <li class="item-sub">
+                                                            <a href="#" class="item-sub__link fs-14">Release Calender</a>
+                                                        </li>
+                                                        <li class="item-sub">
+                                                            <a href="#" class="item-sub__link fs-14">Release Calender</a>
+                                                        </li>
+                                                        <li class="item-sub">
+                                                            <a href="#" class="item-sub__link fs-14">Release Calender</a>
+                                                        </li>
+                                                    </ul>
+                                                    <!-- end sub menu list -->
+                                                </div>
+                                                <!-- end item -->
+                                                <!-- item -->
+                                                <div class="sub-menu__item px-20">
+                                                    <!-- heading -->
+                                                    <div class="heading-sub d-3xl-flex items-center justify-between py-15 text-gray-2b">
+                                                        <h3 class="heading-sub__title fs-15 fw-500">
+                                                            <a href="#">Chính sách & Thị trường</a>
+                                                        </h3>
+                                                        <div class="heading-sub__arrow js__dropDown">
+                                                            <img src="./images/svg/arrow-down-gray.svg" alt="">
+                                                        </div>
+                                                    </div>
+                                                    <!-- end heading -->
+            
+                                                    <!-- sub menu list -->
+                                                    <ul class="list-sub js__listSubMenu">
+                                                        <li class="item-sub">
+                                                            <a href="#" class="item-sub__link fs-14">Release Calender</a>
+                                                        </li>
+                                                        <li class="item-sub">
+                                                            <a href="#" class="item-sub__link fs-14">Release Calender</a>
+                                                        </li>
+                                                        <li class="item-sub">
+                                                            <a href="#" class="item-sub__link fs-14">Release Calender</a>
+                                                        </li>
+                                                    </ul>
+                                                    <!-- end sub menu list -->
+                                                </div>
+                                                <!-- end item -->
+                                                <!-- item -->
+                                                <div class="sub-menu__item px-20">
+                                                    <!-- heading -->
+                                                    <div class="heading-sub d-3xl-flex items-center justify-between py-15 text-gray-2b">
+                                                        <h3 class="heading-sub__title fs-15 fw-500">
+                                                            <a href="#">Chính sách & Thị trường</a>
+                                                        </h3>
+                                                        <div class="heading-sub__arrow js__dropDown">
+                                                            <img src="./images/svg/arrow-down-gray.svg" alt="">
+                                                        </div>
+                                                    </div>
+                                                    <!-- end heading -->
+            
+                                                    <!-- sub menu list -->
+                                                    <ul class="list-sub js__listSubMenu">
+                                                        <li class="item-sub">
+                                                            <a href="#" class="item-sub__link fs-14">Release Calender</a>
+                                                        </li>
+                                                        <li class="item-sub">
+                                                            <a href="#" class="item-sub__link fs-14">Release Calender</a>
+                                                        </li>
+                                                        <li class="item-sub">
+                                                            <a href="#" class="item-sub__link fs-14">Release Calender</a>
+                                                        </li>
+                                                    </ul>
+                                                    <!-- end sub menu list -->
+                                                </div>
+                                                <!-- end item -->
+                                                
+                                            </div>
+                                            <!-- end list -->
+
+                                            <!-- btn -->
+                                            <div class="sub-menu__bot d-3xl-flex items-center justify-center pb-10 pt-30">
+                                                <a href="#" class="btn uppercase fs-14">Liên hệ quảng cáo</a>
+                                            </div>
+                                            <!-- end btn -->
+                                        </div>
+                                    </div>
+                                    <!-- end content -->
+                                    <div class="overlay js__overlay"></div>
+                                </div>
+                                <!-- end submenu -->
+                            </div>
+                            <!-- end left -->
+                            <!-- center -->
+                            <div class="center flex-0">
+                                <!-- logo -->
+                                <div class="logo">
+                                    <a href="#" class="logo-img">
+                                        <img src="./images/svg/logo.svg" alt="">
+                                    </a>
+                                </div>
+                                <!-- end logo -->
+                            </div>
+                            <!-- end center -->
+    
+                            <!-- right -->
+                            <div class="right flex-1 d-3xl-flex items-center justify-end">
+                                <!-- search mb -->
+                                <div class="search-mb">
+                                    <div class="search-mb__icon js__searchMb">
+                                        <img src="./images/svg/search-gray.svg" alt="">
+                                    </div>
+                                    <!-- form -->
+                                    <div class="header-search-mb__form h-60 w-full js__formSearchMb shadow">
+                                        <form action="" class="w-full h-full">
+                                            <div class="relative w-full h-full">
+                                                <input type="text" class="header-search-input w-full h-full p-12 fs-16 js__focusSearchMb" placeholder="Search...">
+                                                <div class="header-search-btn absolute h-full d-3xl-flex items-center p-8 js__closeSearchMb icon-20">
+                                                    <img src="./images/svg/close-gray.svg" alt="">
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                    <!-- end form -->
+                                </div>
+                                <!-- end search mb -->
+                            </div>
+                            <!-- end right -->
+                        </div>
+                    </div>
+                   <!-- end bot -->
+                </div>
+            </div>
+            <!-- end mb -->
+
+        </header>
+        <!-- end header -->
+        <!-- main -->
+        <main id="main" class="main">
+
+            <!-- breadcrumb -->
+            <div class="breadcrumb w-wrapper">
+                <div class="breadcrumb-container w-1280 d-3xl-flex items-center h-full w-full">
+                    <!-- item -->
+                    <div class="breadcrumb-item fs-14 h-full d-3xl-flex items-center">
+                        <a href="/" class="breadcrumb-link">Trang chủ</a>
+                    </div>
+                    <!-- end item -->
+                    <!-- item -->
+                    <div class="breadcrumb-item fs-14 h-full d-3xl-flex items-center active">
+                        <a href="#" class="breadcrumb-link">Chính sách & thị trường</a>
+                    </div>
+                    <!-- end item -->
+                    
+                </div>
+            </div>
+            <!-- end breadcrumb -->
+            <!-- desk top -->
+            <div class="d-3xl-block d-md-none">
+                <!-- primary -->
+                <section class="cate-1-primary relative w-wrapper z-10 over-hidden">
+                    <div class="cate-1-primary__container w-1280 w-md-500 relative block-quaternary border-b-d9 py-40">
+                        <!-- left -->
+                        <div class="cate-1-primary__left block-quaternary__left">
+                            <!-- box three -->
+                            <div class="box-three block-quaternary mb-30 pb-30 mb-md-20 pb-md-20 border-b-d9">
+                                <!-- large -->
+                                <div class="box-three__large block-quaternary__left">
+                                    <!-- article -->
+                                    <div class="article-large">
+                                        <!-- img -->
+                                        <div class="article-img">
+                                            <a href="#" class="ratio-3x2">
+                                                <img src="./images/2.jpg" alt="">
+                                            </a>
+                                        </div>
+                                        <!-- end img -->
+                                        <!-- content -->
+                                        <div class="article-content pt-20">
+                                            <h1 class="article-title fs-30 fs-md-22 fw-800 text-center font-merri text-gray-50 lh-130 mb-20">
+                                                <a href="#" class="">TP. Hồ Chí Minh sắp ra mắt hệ sinh thái trung tâm tài chính hàng hải
+                                                </a>
+                                            </h1>
+                                            
+                                            <div class="article-des fs-15 text-center text-gray-50 lh-130">
+                                                <p>VIFC-HCMC định hướng phát triển một hệ sinh thái tài chính gắn với hàng hải và logistics. Hiện tổng giá trị hàng hóa lưu chuyển qua hệ thống cảng khu vực TP. Hồ Chí Minh ước vượt 1.000 tỷ USD mỗi năm.
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <!-- end content -->
+                                    </div>
+                                    <!-- end article -->
+                                </div>
+                                <!-- end large -->
+                                <!-- medium -->
+                                <div class="box-three__medium block-quaternary__right">
+                                    <!-- article medium -->
+                                    <div class="article-medium last-article">
+                                        <!-- article -->
+                                        <div class="article py-16 border-b-d9">
+                                            <!-- img -->
+                                            <div class="article-img">
+                                                <a href="#" class="ratio-16x9">
+                                                    <img src="./images/2.jpg" alt="">
+                                                </a>
+                                            </div>
+                                            <!-- end img -->
+                                            <!-- content -->
+                                            <div class="article-content pt-12">
+                                                <h2 class="article-title fs-20 fs-md-18 fw-700 font-merri text-gray-50 lh-130">
+                                                    <a href="#" class="fix-text3">TP. Hồ Chí Minh sắp ra mắt hệ sinh thái trung tâm tài chính hàng hải
+                                                    </a>
+                                                </h2>
+                                            </div>
+                                            <!-- end content -->
+                                        </div>
+                                        <!-- end article -->
+                                        <!-- article -->
+                                        <div class="article py-16 border-b-d9">
+                                            <!-- img -->
+                                            <div class="article-img">
+                                                <a href="#" class="ratio-16x9">
+                                                    <img src="./images/2.jpg" alt="">
+                                                </a>
+                                            </div>
+                                            <!-- end img -->
+                                            <!-- content -->
+                                            <div class="article-content pt-12">
+                                                <h2 class="article-title fs-20 fs-md-18 fw-700 font-merri text-gray-50 lh-130">
+                                                    <a href="#" class="fix-text3">TP. Hồ Chí Minh sắp ra mắt hệ sinh thái trung tâm tài chính hàng hải
+                                                    </a>
+                                                </h2>
+                                            </div>
+                                            <!-- end content -->
+                                        </div>
+                                        <!-- end article -->
+                                    </div>
+                                    <!-- end article medium -->
+                                </div>
+                                <!-- end medium -->
+                            </div>
+                            <!-- end box three -->
+
+                            <!-- box four -->
+                            <div class="box-four">
+                                <!-- article list -->
+                                <div class="box-four__list last-article">
+                                    <!-- article -->
+                                    <div class="article d-3xl-flex d-md-block gap-24 py-20 py-md-15 border-b-d9">
+                                        <!-- img -->
+                                        <div class="article-img w-35 w-md-full flex-0">
+                                            <a href="#" class="ratio-16x9">
+                                                <img src="./images/2.jpg" alt="">
+                                            </a>
+                                        </div>
+                                        <!-- end img -->
+                                        <!-- content -->
+                                        <div class="article-content mt-md-12 flex-1">
+                                            <h3 class="article-title fs-20 fs-md-18 fw-700 font-merri text-gray-50 lh-130">
+                                                <a href="#" class="fix-text3">TP. Hồ Chí Minh sắp ra mắt hệ sinh thái trung tâm tài chính hàng hải
+                                                </a>
+                                            </h3>
+                                            <div class="article-des fs-15 text-gray-50 lh-130 mt-10">
+                                                <p class="fix-text4">VIFC-HCMC định hướng phát triển một hệ sinh thái tài chính gắn với hàng hải và logistics. Hiện tổng giá trị hàng hóa lưu chuyển qua hệ thống cảng khu vực TP. Hồ Chí Minh ước vượt 1.000 tỷ USD mỗi năm.
+                                                </p>
+                                            </div>
+                                            <div class="article-bot mt-20 d-3xl-flex items-center">
+                                                <a href="#" class="article-bot__share d-3xl-flex items-center text-gray-88">
+                                                    <div class="flex-0 icon icon-14 mr-8">
+                                                        <img src="./images/svg/share-orange.svg" alt="">
+                                                    </div>
+                                                    <span class="text fs-14 fw-600">Chia sẻ</span>
+                                                </a>
+                                                
+                                                <div class="article-bot__line d-3xl-inline-block mx-10 text-gray-88 fs-14">|</div>
+                                                <div class="article-bot__time fs-14 text-gray-88 fw-600"><span>20/05/2025</span></div>
+                                            </div>
+                                        </div>
+                                        <!-- end content -->
+                                    </div>
+                                    <!-- end article -->
+                                    <!-- article -->
+                                    <div class="article d-3xl-flex d-md-block gap-24 py-20 py-md-15 border-b-d9">
+                                        <!-- img -->
+                                        <div class="article-img w-35 w-md-full flex-0">
+                                            <a href="#" class="ratio-16x9">
+                                                <img src="./images/2.jpg" alt="">
+                                            </a>
+                                        </div>
+                                        <!-- end img -->
+                                        <!-- content -->
+                                        <div class="article-content mt-md-12 flex-1">
+                                            <h3 class="article-title fs-20 fs-md-18 fw-700 font-merri text-gray-50 lh-130">
+                                                <a href="#" class="fix-text3">TP. Hồ Chí Minh sắp ra mắt hệ sinh thái trung tâm tài chính hàng hải
+                                                </a>
+                                            </h3>
+                                            <div class="article-des fs-15 text-gray-50 lh-130 mt-10">
+                                                <p class="fix-text4">VIFC-HCMC định hướng phát triển một hệ sinh thái tài chính gắn với hàng hải và logistics. Hiện tổng giá trị hàng hóa lưu chuyển qua hệ thống cảng khu vực TP. Hồ Chí Minh ước vượt 1.000 tỷ USD mỗi năm.
+                                                </p>
+                                            </div>
+                                            <div class="article-bot mt-20 d-3xl-flex items-center">
+                                                <a href="#" class="article-bot__share d-3xl-flex items-center text-gray-88">
+                                                    <div class="flex-0 icon icon-14 mr-8">
+                                                        <img src="./images/svg/share-orange.svg" alt="">
+                                                    </div>
+                                                    <span class="text fs-14 fw-600">Chia sẻ</span>
+                                                </a>
+                                                
+                                                <div class="article-bot__line d-3xl-inline-block mx-10 text-gray-88 fs-14">|</div>
+                                                <div class="article-bot__time fs-14 text-gray-88 fw-600"><span>20/05/2025</span></div>
+                                            </div>
+                                        </div>
+                                        <!-- end content -->
+                                    </div>
+                                    <!-- end article -->
+                                    <!-- article -->
+                                    <div class="article d-3xl-flex d-md-block gap-24 py-20 py-md-15 border-b-d9">
+                                        <!-- img -->
+                                        <div class="article-img w-35 w-md-full flex-0">
+                                            <a href="#" class="ratio-16x9">
+                                                <img src="./images/2.jpg" alt="">
+                                            </a>
+                                        </div>
+                                        <!-- end img -->
+                                        <!-- content -->
+                                        <div class="article-content mt-md-12 flex-1">
+                                            <h3 class="article-title fs-20 fs-md-18 fw-700 font-merri text-gray-50 lh-130">
+                                                <a href="#" class="fix-text3">TP. Hồ Chí Minh sắp ra mắt hệ sinh thái trung tâm tài chính hàng hải
+                                                </a>
+                                            </h3>
+                                            <div class="article-des fs-15 text-gray-50 lh-130 mt-10">
+                                                <p class="fix-text4">VIFC-HCMC định hướng phát triển một hệ sinh thái tài chính gắn với hàng hải và logistics. Hiện tổng giá trị hàng hóa lưu chuyển qua hệ thống cảng khu vực TP. Hồ Chí Minh ước vượt 1.000 tỷ USD mỗi năm.
+                                                </p>
+                                            </div>
+                                            <div class="article-bot mt-20 d-3xl-flex items-center">
+                                                <a href="#" class="article-bot__share d-3xl-flex items-center text-gray-88">
+                                                    <div class="flex-0 icon icon-14 mr-8">
+                                                        <img src="./images/svg/share-orange.svg" alt="">
+                                                    </div>
+                                                    <span class="text fs-14 fw-600">Chia sẻ</span>
+                                                </a>
+                                                
+                                                <div class="article-bot__line d-3xl-inline-block mx-10 text-gray-88 fs-14">|</div>
+                                                <div class="article-bot__time fs-14 text-gray-88 fw-600"><span>20/05/2025</span></div>
+                                            </div>
+                                        </div>
+                                        <!-- end content -->
+                                    </div>
+                                    <!-- end article -->
+                                    <!-- article -->
+                                    <div class="article d-3xl-flex d-md-block gap-24 py-20 py-md-15 border-b-d9">
+                                        <!-- img -->
+                                        <div class="article-img w-35 w-md-full flex-0">
+                                            <a href="#" class="ratio-16x9">
+                                                <img src="./images/2.jpg" alt="">
+                                            </a>
+                                        </div>
+                                        <!-- end img -->
+                                        <!-- content -->
+                                        <div class="article-content mt-md-12 flex-1">
+                                            <h3 class="article-title fs-20 fs-md-18 fw-700 font-merri text-gray-50 lh-130">
+                                                <a href="#" class="fix-text3">TP. Hồ Chí Minh sắp ra mắt hệ sinh thái trung tâm tài chính hàng hải
+                                                </a>
+                                            </h3>
+                                            <div class="article-des fs-15 text-gray-50 lh-130 mt-10">
+                                                <p class="fix-text4">VIFC-HCMC định hướng phát triển một hệ sinh thái tài chính gắn với hàng hải và logistics. Hiện tổng giá trị hàng hóa lưu chuyển qua hệ thống cảng khu vực TP. Hồ Chí Minh ước vượt 1.000 tỷ USD mỗi năm.
+                                                </p>
+                                            </div>
+                                            <div class="article-bot mt-20 d-3xl-flex items-center">
+                                                <a href="#" class="article-bot__share d-3xl-flex items-center text-gray-88">
+                                                    <div class="flex-0 icon icon-14 mr-8">
+                                                        <img src="./images/svg/share-orange.svg" alt="">
+                                                    </div>
+                                                    <span class="text fs-14 fw-600">Chia sẻ</span>
+                                                </a>
+                                                
+                                                <div class="article-bot__line d-3xl-inline-block mx-10 text-gray-88 fs-14">|</div>
+                                                <div class="article-bot__time fs-14 text-gray-88 fw-600"><span>20/05/2025</span></div>
+                                            </div>
+                                        </div>
+                                        <!-- end content -->
+                                    </div>
+                                    <!-- end article -->
+                                    <!-- article -->
+                                    <div class="article d-3xl-flex d-md-block gap-24 py-20 py-md-15 border-b-d9">
+                                        <!-- img -->
+                                        <div class="article-img w-35 w-md-full flex-0">
+                                            <a href="#" class="ratio-16x9">
+                                                <img src="./images/2.jpg" alt="">
+                                            </a>
+                                        </div>
+                                        <!-- end img -->
+                                        <!-- content -->
+                                        <div class="article-content mt-md-12 flex-1">
+                                            <h3 class="article-title fs-20 fs-md-18 fw-700 font-merri text-gray-50 lh-130">
+                                                <a href="#" class="fix-text3">TP. Hồ Chí Minh sắp ra mắt hệ sinh thái trung tâm tài chính hàng hải
+                                                </a>
+                                            </h3>
+                                            <div class="article-des fs-15 text-gray-50 lh-130 mt-10">
+                                                <p class="fix-text4">VIFC-HCMC định hướng phát triển một hệ sinh thái tài chính gắn với hàng hải và logistics. Hiện tổng giá trị hàng hóa lưu chuyển qua hệ thống cảng khu vực TP. Hồ Chí Minh ước vượt 1.000 tỷ USD mỗi năm.
+                                                </p>
+                                            </div>
+                                            <div class="article-bot mt-20 d-3xl-flex items-center">
+                                                <a href="#" class="article-bot__share d-3xl-flex items-center text-gray-88">
+                                                    <div class="flex-0 icon icon-14 mr-8">
+                                                        <img src="./images/svg/share-orange.svg" alt="">
+                                                    </div>
+                                                    <span class="text fs-14 fw-600">Chia sẻ</span>
+                                                </a>
+                                                
+                                                <div class="article-bot__line d-3xl-inline-block mx-10 text-gray-88 fs-14">|</div>
+                                                <div class="article-bot__time fs-14 text-gray-88 fw-600"><span>20/05/2025</span></div>
+                                            </div>
+                                        </div>
+                                        <!-- end content -->
+                                    </div>
+                                    <!-- end article -->
+                                </div>
+                                <!-- end article list -->
+
+                                <!-- see more tertiary -->
+                                <div class="see-more__tertiary d-3xl-flex items-center justify-md-center mt-40 mt-lg-20">
+                                    <a href="#" class="see-more__tertiary__link d-3xl-flex items-center btn-secondary fs-16">
+                                        <span class="text flex-1 d-3xl-inline-block">Xem thêm</span>
+                                        <div class="icon flex-0 ml-10">
+                                            <img src="./images/svg/arrow-down-gray-2.svg" alt="" class="icon-next">
+                                        </div>
+                                    </a>
+                                </div>
+                                <!-- end see more tertiary -->
+                            </div>
+                            <!-- end box four -->
+                        </div>
+                        <!-- end left -->
+                        
+                        <!-- right -->
+                        <div class="cate-1-primary__right block-quaternary__right mt-md-20">
+                            <!-- box one -->
+                            <div class="box-one mb-30 pb-30 border-4b-d9">
+                                <!-- heading -->
+                                <div class="box-one__heading">
+                                    <h2 class="fs-18 text-gray-33 fw-700 uppercase pb-12 mb-16 border-b-d9">Đọc nhiều</h2>
+                                </div>
+                                <!-- end heading -->
+
+                                <!-- content -->
+                                <div class="box-one__content">
+                                    <!-- article list -->
+                                    <div class="article-list last-article">
+                                        <!-- article -->
+                                        <div class="article py-16 border-b-d9">
+                                            <h3 class="article-title fs-20 fs-md-18 fw-600 font-merri text-gray-50 lh-130">
+                                                <a href="#" class="fix-text3">TP. Hồ Chí Minh sắp ra mắt hệ sinh thái trung tâm tài chính hàng hải
+                                                </a>
+                                            </h3>
+                                            <div class="see-more-primary mt-10">
+                                                <a href="#" class="see-more-primary__link d-3xl-inline-flex items-center fs-16 text-gray-66">
+                                                    <span class="text flex-1 d-3xl-inline-block">Xem chi tiết</span>
+                                                    <div class="icon flex-0 icon-12 ml-10">
+                                                        <img src="./images/svg/arrow-next-gray.svg" alt="" class="icon-next">
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <!-- end article -->
+                                        <!-- article -->
+                                        <div class="article py-16 border-b-d9">
+                                            <h3 class="article-title fs-20 fs-md-18 fw-600 font-merri text-gray-50 lh-130">
+                                                <a href="#" class="fix-text3">TP. Hồ Chí Minh sắp ra mắt hệ sinh thái trung tâm tài chính hàng hải
+                                                </a>
+                                            </h3>
+                                            <div class="see-more-primary mt-10">
+                                                <a href="#" class="see-more-primary__link d-3xl-inline-flex items-center fs-16 text-gray-66">
+                                                    <span class="text flex-1 d-3xl-inline-block">Xem chi tiết</span>
+                                                    <div class="icon flex-0 icon-12 ml-10">
+                                                        <img src="./images/svg/arrow-next-gray.svg" alt="" class="icon-next">
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <!-- end article -->
+                                        <!-- article -->
+                                        <div class="article py-16 border-b-d9">
+                                            <h3 class="article-title fs-20 fs-md-18 fw-600 font-merri text-gray-50 lh-130">
+                                                <a href="#" class="fix-text3">TP. Hồ Chí Minh sắp ra mắt hệ sinh thái trung tâm tài chính hàng hải
+                                                </a>
+                                            </h3>
+                                            <div class="see-more-primary mt-10">
+                                                <a href="#" class="see-more-primary__link d-3xl-inline-flex items-center fs-16 text-gray-66">
+                                                    <span class="text flex-1 d-3xl-inline-block">Xem chi tiết</span>
+                                                    <div class="icon flex-0 icon-12 ml-10">
+                                                        <img src="./images/svg/arrow-next-gray.svg" alt="" class="icon-next">
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <!-- end article -->
+                                        <!-- article -->
+                                        <div class="article py-16 border-b-d9">
+                                            <h3 class="article-title fs-20 fs-md-18 fw-600 font-merri text-gray-50 lh-130">
+                                                <a href="#" class="fix-text3">TP. Hồ Chí Minh sắp ra mắt hệ sinh thái trung tâm tài chính hàng hải
+                                                </a>
+                                            </h3>
+                                            <div class="see-more-primary mt-10">
+                                                <a href="#" class="see-more-primary__link d-3xl-inline-flex items-center fs-16 text-gray-66">
+                                                    <span class="text flex-1 d-3xl-inline-block">Xem chi tiết</span>
+                                                    <div class="icon flex-0 icon-12 ml-10">
+                                                        <img src="./images/svg/arrow-next-gray.svg" alt="" class="icon-next">
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <!-- end article -->
+                                        <!-- article -->
+                                        <div class="article py-16 border-b-d9">
+                                            <h3 class="article-title fs-20 fs-md-18 fw-600 font-merri text-gray-50 lh-130">
+                                                <a href="#" class="fix-text3">TP. Hồ Chí Minh sắp ra mắt hệ sinh thái trung tâm tài chính hàng hải
+                                                </a>
+                                            </h3>
+                                            <div class="see-more-primary mt-10">
+                                                <a href="#" class="see-more-primary__link d-3xl-inline-flex items-center fs-16 text-gray-66">
+                                                    <span class="text flex-1 d-3xl-inline-block">Xem chi tiết</span>
+                                                    <div class="icon flex-0 icon-12 ml-10">
+                                                        <img src="./images/svg/arrow-next-gray.svg" alt="" class="icon-next">
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <!-- end article -->
+                                    </div>
+                                    <!-- end article list -->
+                                </div>
+                                <!-- end content -->
+                            </div>
+                            <!-- end box one -->
+
+                            <!-- box five -->
+                            <div class="box-five">
+                                <!-- heading -->
+                                <div class="box-five__heading">
+                                    <h2 class="fs-18 text-gray-33 fw-700 uppercase pb-12 mb-16 border-b-d9">Mới nhất</h2>
+                                </div>
+                                <!-- end heading -->
+
+                                <!-- content -->
+                                <div class="box-five__content">
+                                    <!-- article list -->
+                                    <div class="article-list last-article">
+                                        <!-- article -->
+                                        <div class="article py-16 border-b-d9">
+                                            <!-- img -->
+                                            <div class="article-img">
+                                                <a href="#" class="ratio-16x9">
+                                                    <img src="./images/2.jpg" alt="">
+                                                </a>
+                                            </div>
+                                            <!-- end img -->
+                                            <!-- content -->
+                                            <div class="article-content pt-12">
+                                                <h3 class="article-title fs-20 fs-md-18 fw-600 font-merri text-gray-50 lh-130">
+                                                    <a href="#" class="fix-text3">TP. Hồ Chí Minh sắp ra mắt hệ sinh thái trung tâm tài chính hàng hải
+                                                    </a>
+                                                </h3>
+                                                <div class="see-more-primary mt-10">
+                                                    <a href="#" class="see-more-primary__link d-3xl-inline-flex items-center fs-16 text-gray-66">
+                                                        <span class="text flex-1 d-3xl-inline-block">Xem chi tiết</span>
+                                                        <div class="icon flex-0 icon-12 ml-10">
+                                                            <img src="./images/svg/arrow-next-gray.svg" alt="" class="icon-next">
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <!-- end content -->
+                                        </div>
+                                        <!-- end article -->
+                                        <!-- article -->
+                                        <div class="article py-16 border-b-d9">
+                                            <!-- img -->
+                                            <div class="article-img">
+                                                <a href="#" class="ratio-16x9">
+                                                    <img src="./images/2.jpg" alt="">
+                                                </a>
+                                            </div>
+                                            <!-- end img -->
+                                            <!-- content -->
+                                            <div class="article-content pt-12">
+                                                <h3 class="article-title fs-20 fs-md-18 fw-600 font-merri text-gray-50 lh-130">
+                                                    <a href="#" class="fix-text3">TP. Hồ Chí Minh sắp ra mắt hệ sinh thái trung tâm tài chính hàng hải
+                                                    </a>
+                                                </h3>
+                                                <div class="see-more-primary mt-10">
+                                                    <a href="#" class="see-more-primary__link d-3xl-inline-flex items-center fs-16 text-gray-66">
+                                                        <span class="text flex-1 d-3xl-inline-block">Xem chi tiết</span>
+                                                        <div class="icon flex-0 icon-12 ml-10">
+                                                            <img src="./images/svg/arrow-next-gray.svg" alt="" class="icon-next">
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <!-- end content -->
+                                        </div>
+                                        <!-- end article -->
+                                        <!-- article -->
+                                        <div class="article py-16 border-b-d9">
+                                            <!-- img -->
+                                            <div class="article-img">
+                                                <a href="#" class="ratio-16x9">
+                                                    <img src="./images/2.jpg" alt="">
+                                                </a>
+                                            </div>
+                                            <!-- end img -->
+                                            <!-- content -->
+                                            <div class="article-content pt-12">
+                                                <h3 class="article-title fs-20 fs-md-18 fw-600 font-merri text-gray-50 lh-130">
+                                                    <a href="#" class="fix-text3">TP. Hồ Chí Minh sắp ra mắt hệ sinh thái trung tâm tài chính hàng hải
+                                                    </a>
+                                                </h3>
+                                                <div class="see-more-primary mt-10">
+                                                    <a href="#" class="see-more-primary__link d-3xl-inline-flex items-center fs-16 text-gray-66">
+                                                        <span class="text flex-1 d-3xl-inline-block">Xem chi tiết</span>
+                                                        <div class="icon flex-0 icon-12 ml-10">
+                                                            <img src="./images/svg/arrow-next-gray.svg" alt="" class="icon-next">
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <!-- end content -->
+                                        </div>
+                                        <!-- end article -->
+                                        <!-- article -->
+                                        <div class="article py-16 border-b-d9">
+                                            <!-- img -->
+                                            <div class="article-img">
+                                                <a href="#" class="ratio-16x9">
+                                                    <img src="./images/2.jpg" alt="">
+                                                </a>
+                                            </div>
+                                            <!-- end img -->
+                                            <!-- content -->
+                                            <div class="article-content pt-12">
+                                                <h3 class="article-title fs-20 fs-md-18 fw-600 font-merri text-gray-50 lh-130">
+                                                    <a href="#" class="fix-text3">TP. Hồ Chí Minh sắp ra mắt hệ sinh thái trung tâm tài chính hàng hải
+                                                    </a>
+                                                </h3>
+                                                <div class="see-more-primary mt-10">
+                                                    <a href="#" class="see-more-primary__link d-3xl-inline-flex items-center fs-16 text-gray-66">
+                                                        <span class="text flex-1 d-3xl-inline-block">Xem chi tiết</span>
+                                                        <div class="icon flex-0 icon-12 ml-10">
+                                                            <img src="./images/svg/arrow-next-gray.svg" alt="" class="icon-next">
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <!-- end content -->
+                                        </div>
+                                        <!-- end article -->
+                                        
+                                    </div>
+                                    <!-- end article list -->
+                                </div>
+                                <!-- end content -->
+                            </div>
+                            <!-- end box five -->
+                        </div>
+                        <!-- end right -->
+                    </div>
+                </section>
+                <!-- end primary -->
+                
+            </div>
+            <!-- end desk top -->
+
+            <!-- mobile -->
+            <div class="d-3xl-none d-md-block">
+                <!-- primary -->
+                <section class="cate-primary-mb relative w-wrapper z-10 over-hidden">
+                    <div class="cate-primary-mb__container w-1280 w-md-500 relative border-b-d9 py-20">
+                        <!-- large -->
+                        <div class="cate-primary-mb__large pb-16 border-b-d9">
+                            <div class="article-large">
+                                <!-- img -->
+                                <div class="article-img">
+                                    <a href="#" class="ratio-3x2">
+                                        <img src="./images/2.jpg" alt="">
+                                    </a>
+                                </div>
+                                <!-- end img -->
+                                <!-- content -->
+                                <div class="article-content pt-20">
+                                    <h1 class="article-title fs-30 fs-md-22 fw-800 text-center font-merri text-gray-50 lh-130 mb-20">
+                                        <a href="#" class="">TP. Hồ Chí Minh sắp ra mắt hệ sinh thái trung tâm tài chính hàng hải
+                                        </a>
+                                    </h1>
+                                    
+                                    <div class="article-des fs-15 text-center text-gray-50 lh-130">
+                                        <p>VIFC-HCMC định hướng phát triển một hệ sinh thái tài chính gắn với hàng hải và logistics. Hiện tổng giá trị hàng hóa lưu chuyển qua hệ thống cảng khu vực TP. Hồ Chí Minh ước vượt 1.000 tỷ USD mỗi năm.
+                                        </p>
+                                    </div>
+                                </div>
+                                <!-- end content -->
+                            </div>
+                        </div>
+                        <!-- end large -->
+
+                        <!-- medium -->
+                        <div class="cate-primary-mb__medium">
+                            <!-- article -->
+                            <div class="article py-16 border-b-d9">
+                                <!-- img -->
+                                <div class="article-img">
+                                    <a href="#" class="ratio-16x9">
+                                        <img src="./images/2.jpg" alt="">
+                                    </a>
+                                </div>
+                                <!-- end img -->
+                                <!-- content -->
+                                <div class="article-content pt-12">
+                                    <h2 class="article-title fs-20 fs-md-18 fw-700 font-merri text-gray-50 lh-130">
+                                        <a href="#" class="fix-text3">TP. Hồ Chí Minh sắp ra mắt hệ sinh thái trung tâm tài chính hàng hải
+                                        </a>
+                                    </h2>
+                                </div>
+                                <!-- end content -->
+                            </div>
+                            <!-- end article -->
+                            <!-- article -->
+                            <div class="article py-16 border-b-d9">
+                                <!-- img -->
+                                <div class="article-img">
+                                    <a href="#" class="ratio-16x9">
+                                        <img src="./images/2.jpg" alt="">
+                                    </a>
+                                </div>
+                                <!-- end img -->
+                                <!-- content -->
+                                <div class="article-content pt-12">
+                                    <h2 class="article-title fs-20 fs-md-18 fw-700 font-merri text-gray-50 lh-130">
+                                        <a href="#" class="fix-text3">TP. Hồ Chí Minh sắp ra mắt hệ sinh thái trung tâm tài chính hàng hải
+                                        </a>
+                                    </h2>
+                                </div>
+                                <!-- end content -->
+                            </div>
+                            <!-- end article -->
+                        </div>
+                        <!-- end medium -->
+
+                        <!-- box four -->
+                        <div class="box-four mb-20 pb-20 border-b-d9">
+                            <!-- article list -->
+                            <div class="box-four__list last-article">
+                                <!-- article -->
+                                <div class="article d-3xl-flex d-md-block gap-24 py-20 py-md-15 border-b-d9">
+                                    <!-- img -->
+                                    <div class="article-img w-35 w-md-full flex-0">
+                                        <a href="#" class="ratio-16x9">
+                                            <img src="./images/2.jpg" alt="">
+                                        </a>
+                                    </div>
+                                    <!-- end img -->
+                                    <!-- content -->
+                                    <div class="article-content mt-md-12 flex-1">
+                                        <h3 class="article-title fs-20 fs-md-18 fw-700 font-merri text-gray-50 lh-130">
+                                            <a href="#" class="fix-text3">TP. Hồ Chí Minh sắp ra mắt hệ sinh thái trung tâm tài chính hàng hải
+                                            </a>
+                                        </h3>
+                                        <div class="article-des fs-15 text-gray-50 lh-130 mt-10">
+                                            <p class="fix-text4">VIFC-HCMC định hướng phát triển một hệ sinh thái tài chính gắn với hàng hải và logistics. Hiện tổng giá trị hàng hóa lưu chuyển qua hệ thống cảng khu vực TP. Hồ Chí Minh ước vượt 1.000 tỷ USD mỗi năm.
+                                            </p>
+                                        </div>
+                                        <div class="article-bot mt-20 d-3xl-flex items-center">
+                                            <a href="#" class="article-bot__share d-3xl-flex items-center text-gray-88">
+                                                <div class="flex-0 icon icon-14 mr-8">
+                                                    <img src="./images/svg/share-orange.svg" alt="">
+                                                </div>
+                                                <span class="text fs-14 fw-600">Chia sẻ</span>
+                                            </a>
+                                            
+                                            <div class="article-bot__line d-3xl-inline-block mx-10 text-gray-88 fs-14">|</div>
+                                            <div class="article-bot__time fs-14 text-gray-88 fw-600"><span>20/05/2025</span></div>
+                                        </div>
+                                    </div>
+                                    <!-- end content -->
+                                </div>
+                                <!-- end article -->
+                                <!-- article -->
+                                <div class="article d-3xl-flex d-md-block gap-24 py-20 py-md-15 border-b-d9">
+                                    <!-- img -->
+                                    <div class="article-img w-35 w-md-full flex-0">
+                                        <a href="#" class="ratio-16x9">
+                                            <img src="./images/2.jpg" alt="">
+                                        </a>
+                                    </div>
+                                    <!-- end img -->
+                                    <!-- content -->
+                                    <div class="article-content mt-md-12 flex-1">
+                                        <h3 class="article-title fs-20 fs-md-18 fw-700 font-merri text-gray-50 lh-130">
+                                            <a href="#" class="fix-text3">TP. Hồ Chí Minh sắp ra mắt hệ sinh thái trung tâm tài chính hàng hải
+                                            </a>
+                                        </h3>
+                                        <div class="article-des fs-15 text-gray-50 lh-130 mt-10">
+                                            <p class="fix-text4">VIFC-HCMC định hướng phát triển một hệ sinh thái tài chính gắn với hàng hải và logistics. Hiện tổng giá trị hàng hóa lưu chuyển qua hệ thống cảng khu vực TP. Hồ Chí Minh ước vượt 1.000 tỷ USD mỗi năm.
+                                            </p>
+                                        </div>
+                                        <div class="article-bot mt-20 d-3xl-flex items-center">
+                                            <a href="#" class="article-bot__share d-3xl-flex items-center text-gray-88">
+                                                <div class="flex-0 icon icon-14 mr-8">
+                                                    <img src="./images/svg/share-orange.svg" alt="">
+                                                </div>
+                                                <span class="text fs-14 fw-600">Chia sẻ</span>
+                                            </a>
+                                            
+                                            <div class="article-bot__line d-3xl-inline-block mx-10 text-gray-88 fs-14">|</div>
+                                            <div class="article-bot__time fs-14 text-gray-88 fw-600"><span>20/05/2025</span></div>
+                                        </div>
+                                    </div>
+                                    <!-- end content -->
+                                </div>
+                                <!-- end article -->
+                                <!-- article -->
+                                <div class="article d-3xl-flex d-md-block gap-24 py-20 py-md-15 border-b-d9">
+                                    <!-- img -->
+                                    <div class="article-img w-35 w-md-full flex-0">
+                                        <a href="#" class="ratio-16x9">
+                                            <img src="./images/2.jpg" alt="">
+                                        </a>
+                                    </div>
+                                    <!-- end img -->
+                                    <!-- content -->
+                                    <div class="article-content mt-md-12 flex-1">
+                                        <h3 class="article-title fs-20 fs-md-18 fw-700 font-merri text-gray-50 lh-130">
+                                            <a href="#" class="fix-text3">TP. Hồ Chí Minh sắp ra mắt hệ sinh thái trung tâm tài chính hàng hải
+                                            </a>
+                                        </h3>
+                                        <div class="article-des fs-15 text-gray-50 lh-130 mt-10">
+                                            <p class="fix-text4">VIFC-HCMC định hướng phát triển một hệ sinh thái tài chính gắn với hàng hải và logistics. Hiện tổng giá trị hàng hóa lưu chuyển qua hệ thống cảng khu vực TP. Hồ Chí Minh ước vượt 1.000 tỷ USD mỗi năm.
+                                            </p>
+                                        </div>
+                                        <div class="article-bot mt-20 d-3xl-flex items-center">
+                                            <a href="#" class="article-bot__share d-3xl-flex items-center text-gray-88">
+                                                <div class="flex-0 icon icon-14 mr-8">
+                                                    <img src="./images/svg/share-orange.svg" alt="">
+                                                </div>
+                                                <span class="text fs-14 fw-600">Chia sẻ</span>
+                                            </a>
+                                            
+                                            <div class="article-bot__line d-3xl-inline-block mx-10 text-gray-88 fs-14">|</div>
+                                            <div class="article-bot__time fs-14 text-gray-88 fw-600"><span>20/05/2025</span></div>
+                                        </div>
+                                    </div>
+                                    <!-- end content -->
+                                </div>
+                                <!-- end article -->
+                                <!-- article -->
+                                <div class="article d-3xl-flex d-md-block gap-24 py-20 py-md-15 border-b-d9">
+                                    <!-- img -->
+                                    <div class="article-img w-35 w-md-full flex-0">
+                                        <a href="#" class="ratio-16x9">
+                                            <img src="./images/2.jpg" alt="">
+                                        </a>
+                                    </div>
+                                    <!-- end img -->
+                                    <!-- content -->
+                                    <div class="article-content mt-md-12 flex-1">
+                                        <h3 class="article-title fs-20 fs-md-18 fw-700 font-merri text-gray-50 lh-130">
+                                            <a href="#" class="fix-text3">TP. Hồ Chí Minh sắp ra mắt hệ sinh thái trung tâm tài chính hàng hải
+                                            </a>
+                                        </h3>
+                                        <div class="article-des fs-15 text-gray-50 lh-130 mt-10">
+                                            <p class="fix-text4">VIFC-HCMC định hướng phát triển một hệ sinh thái tài chính gắn với hàng hải và logistics. Hiện tổng giá trị hàng hóa lưu chuyển qua hệ thống cảng khu vực TP. Hồ Chí Minh ước vượt 1.000 tỷ USD mỗi năm.
+                                            </p>
+                                        </div>
+                                        <div class="article-bot mt-20 d-3xl-flex items-center">
+                                            <a href="#" class="article-bot__share d-3xl-flex items-center text-gray-88">
+                                                <div class="flex-0 icon icon-14 mr-8">
+                                                    <img src="./images/svg/share-orange.svg" alt="">
+                                                </div>
+                                                <span class="text fs-14 fw-600">Chia sẻ</span>
+                                            </a>
+                                            
+                                            <div class="article-bot__line d-3xl-inline-block mx-10 text-gray-88 fs-14">|</div>
+                                            <div class="article-bot__time fs-14 text-gray-88 fw-600"><span>20/05/2025</span></div>
+                                        </div>
+                                    </div>
+                                    <!-- end content -->
+                                </div>
+                                <!-- end article -->
+                                <!-- article -->
+                                <div class="article d-3xl-flex d-md-block gap-24 py-20 py-md-15 border-b-d9">
+                                    <!-- img -->
+                                    <div class="article-img w-35 w-md-full flex-0">
+                                        <a href="#" class="ratio-16x9">
+                                            <img src="./images/2.jpg" alt="">
+                                        </a>
+                                    </div>
+                                    <!-- end img -->
+                                    <!-- content -->
+                                    <div class="article-content mt-md-12 flex-1">
+                                        <h3 class="article-title fs-20 fs-md-18 fw-700 font-merri text-gray-50 lh-130">
+                                            <a href="#" class="fix-text3">TP. Hồ Chí Minh sắp ra mắt hệ sinh thái trung tâm tài chính hàng hải
+                                            </a>
+                                        </h3>
+                                        <div class="article-des fs-15 text-gray-50 lh-130 mt-10">
+                                            <p class="fix-text4">VIFC-HCMC định hướng phát triển một hệ sinh thái tài chính gắn với hàng hải và logistics. Hiện tổng giá trị hàng hóa lưu chuyển qua hệ thống cảng khu vực TP. Hồ Chí Minh ước vượt 1.000 tỷ USD mỗi năm.
+                                            </p>
+                                        </div>
+                                        <div class="article-bot mt-20 d-3xl-flex items-center">
+                                            <a href="#" class="article-bot__share d-3xl-flex items-center text-gray-88">
+                                                <div class="flex-0 icon icon-14 mr-8">
+                                                    <img src="./images/svg/share-orange.svg" alt="">
+                                                </div>
+                                                <span class="text fs-14 fw-600">Chia sẻ</span>
+                                            </a>
+                                            
+                                            <div class="article-bot__line d-3xl-inline-block mx-10 text-gray-88 fs-14">|</div>
+                                            <div class="article-bot__time fs-14 text-gray-88 fw-600"><span>20/05/2025</span></div>
+                                        </div>
+                                    </div>
+                                    <!-- end content -->
+                                </div>
+                                <!-- end article -->
+                            </div>
+                            <!-- end article list -->
+
+                            <!-- see more tertiary -->
+                            <div class="see-more__tertiary d-3xl-flex items-center justify-md-center mt-40 mt-lg-20">
+                                <a href="#" class="see-more__tertiary__link d-3xl-flex items-center btn-secondary fs-16">
+                                    <span class="text flex-1 d-3xl-inline-block">Xem thêm</span>
+                                    <div class="icon flex-0 ml-10">
+                                        <img src="./images/svg/arrow-down-gray-2.svg" alt="" class="icon-next">
+                                    </div>
+                                </a>
+                            </div>
+                            <!-- end see more tertiary -->
+                        </div>
+                        <!-- end box four -->
+
+                        <!-- box two -->
+                        <div class="box-two mb-20 pb-20 border-4b-d9">
+                            <!-- heading -->
+                            <div class="box-two__heading">
+                                <h2 class="fs-18 text-gray-33 fw-700 uppercase pb-20">Đọc nhiều</h2>
+                            </div>
+                            <!-- end heading -->
+
+                            <!-- content -->
+                            <div class="box-two__content">
+                                <!-- article list -->
+                                <div class="article-list last-article">
+                                    <!-- article -->
+                                    <div class="article d-3xl-flex gap-16 py-16 border-b-d9">
+                                        <!-- article content -->
+                                        <div class="article-content flex-1">
+                                            <h3 class="article-title fs-20 fs-md-18 fw-600 font-merri text-gray-50 lh-130">
+                                                <a href="#" class="fix-text3">TP. Hồ Chí Minh sắp ra mắt hệ sinh thái trung tâm tài chính hàng hải
+                                                </a>
+                                            </h3>
+                                            <div class="see-more-primary mt-10">
+                                                <a href="#" class="see-more-primary__link d-3xl-inline-flex items-center fs-16 text-gray-66">
+                                                    <span class="text flex-1 d-3xl-inline-block">Xem chi tiết</span>
+                                                    <div class="icon flex-0 icon-12 ml-10">
+                                                        <img src="./images/svg/arrow-next-gray.svg" alt="" class="icon-next">
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <!-- end article content -->
+                                        <!-- img -->
+                                        <div class="article-img flex-0 w-30">
+                                            <a href="#" class="ratio-16x9">
+                                                <img src="./images/2.jpg" alt="">
+                                            </a>
+                                        </div>
+                                        <!-- end img -->
+                                    </div>
+                                    <!-- end article -->
+                                    <!-- article -->
+                                    <div class="article d-3xl-flex gap-16 py-16 border-b-d9">
+                                        <!-- article content -->
+                                        <div class="article-content flex-1">
+                                            <h3 class="article-title fs-20 fs-md-18 fw-600 font-merri text-gray-50 lh-130">
+                                                <a href="#" class="fix-text3">TP. Hồ Chí Minh sắp ra mắt hệ sinh thái trung tâm tài chính hàng hải
+                                                </a>
+                                            </h3>
+                                            <div class="see-more-primary mt-10">
+                                                <a href="#" class="see-more-primary__link d-3xl-inline-flex items-center fs-16 text-gray-66">
+                                                    <span class="text flex-1 d-3xl-inline-block">Xem chi tiết</span>
+                                                    <div class="icon flex-0 icon-12 ml-10">
+                                                        <img src="./images/svg/arrow-next-gray.svg" alt="" class="icon-next">
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <!-- end article content -->
+                                        <!-- img -->
+                                        <div class="article-img flex-0 w-30">
+                                            <a href="#" class="ratio-16x9">
+                                                <img src="./images/2.jpg" alt="">
+                                            </a>
+                                        </div>
+                                        <!-- end img -->
+                                    </div>
+                                    <!-- end article -->
+                                    <!-- article -->
+                                    <div class="article d-3xl-flex gap-16 py-16 border-b-d9">
+                                        <!-- article content -->
+                                        <div class="article-content flex-1">
+                                            <h3 class="article-title fs-20 fs-md-18 fw-600 font-merri text-gray-50 lh-130">
+                                                <a href="#" class="fix-text3">TP. Hồ Chí Minh sắp ra mắt hệ sinh thái trung tâm tài chính hàng hải
+                                                </a>
+                                            </h3>
+                                            <div class="see-more-primary mt-10">
+                                                <a href="#" class="see-more-primary__link d-3xl-inline-flex items-center fs-16 text-gray-66">
+                                                    <span class="text flex-1 d-3xl-inline-block">Xem chi tiết</span>
+                                                    <div class="icon flex-0 icon-12 ml-10">
+                                                        <img src="./images/svg/arrow-next-gray.svg" alt="" class="icon-next">
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <!-- end article content -->
+                                        <!-- img -->
+                                        <div class="article-img flex-0 w-30">
+                                            <a href="#" class="ratio-16x9">
+                                                <img src="./images/2.jpg" alt="">
+                                            </a>
+                                        </div>
+                                        <!-- end img -->
+                                    </div>
+                                    <!-- end article -->
+                                    <!-- article -->
+                                    <div class="article d-3xl-flex gap-16 py-16 border-b-d9">
+                                        <!-- article content -->
+                                        <div class="article-content flex-1">
+                                            <h3 class="article-title fs-20 fs-md-18 fw-600 font-merri text-gray-50 lh-130">
+                                                <a href="#" class="fix-text3">TP. Hồ Chí Minh sắp ra mắt hệ sinh thái trung tâm tài chính hàng hải
+                                                </a>
+                                            </h3>
+                                            <div class="see-more-primary mt-10">
+                                                <a href="#" class="see-more-primary__link d-3xl-inline-flex items-center fs-16 text-gray-66">
+                                                    <span class="text flex-1 d-3xl-inline-block">Xem chi tiết</span>
+                                                    <div class="icon flex-0 icon-12 ml-10">
+                                                        <img src="./images/svg/arrow-next-gray.svg" alt="" class="icon-next">
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <!-- end article content -->
+                                        <!-- img -->
+                                        <div class="article-img flex-0 w-30">
+                                            <a href="#" class="ratio-16x9">
+                                                <img src="./images/2.jpg" alt="">
+                                            </a>
+                                        </div>
+                                        <!-- end img -->
+                                    </div>
+                                    <!-- end article -->
+                                    <!-- article -->
+                                    <div class="article d-3xl-flex gap-16 py-16 border-b-d9">
+                                        <!-- article content -->
+                                        <div class="article-content flex-1">
+                                            <h3 class="article-title fs-20 fs-md-18 fw-600 font-merri text-gray-50 lh-130">
+                                                <a href="#" class="fix-text3">TP. Hồ Chí Minh sắp ra mắt hệ sinh thái trung tâm tài chính hàng hải
+                                                </a>
+                                            </h3>
+                                            <div class="see-more-primary mt-10">
+                                                <a href="#" class="see-more-primary__link d-3xl-inline-flex items-center fs-16 text-gray-66">
+                                                    <span class="text flex-1 d-3xl-inline-block">Xem chi tiết</span>
+                                                    <div class="icon flex-0 icon-12 ml-10">
+                                                        <img src="./images/svg/arrow-next-gray.svg" alt="" class="icon-next">
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <!-- end article content -->
+                                        <!-- img -->
+                                        <div class="article-img flex-0 w-30">
+                                            <a href="#" class="ratio-16x9">
+                                                <img src="./images/2.jpg" alt="">
+                                            </a>
+                                        </div>
+                                        <!-- end img -->
+                                    </div>
+                                    <!-- end article -->
+                                </div>
+                                <!-- end article list -->
+                            </div>
+                            <!-- end content -->
+                        </div>
+                        <!-- end box two -->
+
+                        <!-- box six -->
+                        <div class="box-six">
+                            <!-- heading -->
+                            <div class="box-six__heading">
+                                <h2 class="fs-18 text-gray-33 fw-700 uppercase pb-20">Mới nhất</h2>
+                            </div>
+                            <!-- end heading -->
+
+                            <!-- content -->
+                            <div class="box-six__content">
+                                <!-- large -->
+                                <div class="article-large pb-16 mb-16 border-b-d9">
+                                    <!-- img -->
+                                    <div class="article-img">
+                                        <a href="#" class="ratio-16x9">
+                                            <img src="./images/2.jpg" alt="">
+                                        </a>
+                                    </div>
+                                    <!-- end img -->
+                                    <!-- content -->
+                                    <div class="article-content pt-12">
+                                        <h3 class="article-title fs-20 fs-md-18 fw-600 font-merri text-gray-50 lh-130">
+                                            <a href="#" class="fix-text3">TP. Hồ Chí Minh sắp ra mắt hệ sinh thái trung tâm tài chính hàng hải
+                                            </a>
+                                        </h3>
+                                        <div class="see-more-primary mt-10">
+                                            <a href="#" class="see-more-primary__link d-3xl-inline-flex items-center fs-16 text-gray-66">
+                                                <span class="text flex-1 d-3xl-inline-block">Xem chi tiết</span>
+                                                <div class="icon flex-0 icon-12 ml-10">
+                                                    <img src="./images/svg/arrow-next-gray.svg" alt="" class="icon-next">
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <!-- end content -->
+                                        </div>
+                                <!-- end large -->
+                                <!-- article list -->
+                                <div class="article-list last-article">
+                                    <!-- article -->
+                                    <div class="article d-3xl-flex gap-16 py-16 border-b-d9">
+                                        <!-- article content -->
+                                        <div class="article-content flex-1">
+                                            <h3 class="article-title fs-20 fs-md-18 fw-600 font-merri text-gray-50 lh-130">
+                                                <a href="#" class="fix-text3">TP. Hồ Chí Minh sắp ra mắt hệ sinh thái trung tâm tài chính hàng hải
+                                                </a>
+                                            </h3>
+                                            <div class="see-more-primary mt-10">
+                                                <a href="#" class="see-more-primary__link d-3xl-inline-flex items-center fs-16 text-gray-66">
+                                                    <span class="text flex-1 d-3xl-inline-block">Xem chi tiết</span>
+                                                    <div class="icon flex-0 icon-12 ml-10">
+                                                        <img src="./images/svg/arrow-next-gray.svg" alt="" class="icon-next">
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <!-- end article content -->
+                                        <!-- img -->
+                                        <div class="article-img flex-0 w-30">
+                                            <a href="#" class="ratio-16x9">
+                                                <img src="./images/2.jpg" alt="">
+                                            </a>
+                                        </div>
+                                        <!-- end img -->
+                                    </div>
+                                    <!-- end article -->
+                                    <!-- article -->
+                                    <div class="article d-3xl-flex gap-16 py-16 border-b-d9">
+                                        <!-- article content -->
+                                        <div class="article-content flex-1">
+                                            <h3 class="article-title fs-20 fs-md-18 fw-600 font-merri text-gray-50 lh-130">
+                                                <a href="#" class="fix-text3">TP. Hồ Chí Minh sắp ra mắt hệ sinh thái trung tâm tài chính hàng hải
+                                                </a>
+                                            </h3>
+                                            <div class="see-more-primary mt-10">
+                                                <a href="#" class="see-more-primary__link d-3xl-inline-flex items-center fs-16 text-gray-66">
+                                                    <span class="text flex-1 d-3xl-inline-block">Xem chi tiết</span>
+                                                    <div class="icon flex-0 icon-12 ml-10">
+                                                        <img src="./images/svg/arrow-next-gray.svg" alt="" class="icon-next">
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <!-- end article content -->
+                                        <!-- img -->
+                                        <div class="article-img flex-0 w-30">
+                                            <a href="#" class="ratio-16x9">
+                                                <img src="./images/2.jpg" alt="">
+                                            </a>
+                                        </div>
+                                        <!-- end img -->
+                                    </div>
+                                    <!-- end article -->
+                                    <!-- article -->
+                                    <div class="article d-3xl-flex gap-16 py-16 border-b-d9">
+                                        <!-- article content -->
+                                        <div class="article-content flex-1">
+                                            <h3 class="article-title fs-20 fs-md-18 fw-600 font-merri text-gray-50 lh-130">
+                                                <a href="#" class="fix-text3">TP. Hồ Chí Minh sắp ra mắt hệ sinh thái trung tâm tài chính hàng hải
+                                                </a>
+                                            </h3>
+                                            <div class="see-more-primary mt-10">
+                                                <a href="#" class="see-more-primary__link d-3xl-inline-flex items-center fs-16 text-gray-66">
+                                                    <span class="text flex-1 d-3xl-inline-block">Xem chi tiết</span>
+                                                    <div class="icon flex-0 icon-12 ml-10">
+                                                        <img src="./images/svg/arrow-next-gray.svg" alt="" class="icon-next">
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <!-- end article content -->
+                                        <!-- img -->
+                                        <div class="article-img flex-0 w-30">
+                                            <a href="#" class="ratio-16x9">
+                                                <img src="./images/2.jpg" alt="">
+                                            </a>
+                                        </div>
+                                        <!-- end img -->
+                                    </div>
+                                    <!-- end article -->
+                                    <!-- article -->
+                                    <div class="article d-3xl-flex gap-16 py-16 border-b-d9">
+                                        <!-- article content -->
+                                        <div class="article-content flex-1">
+                                            <h3 class="article-title fs-20 fs-md-18 fw-600 font-merri text-gray-50 lh-130">
+                                                <a href="#" class="fix-text3">TP. Hồ Chí Minh sắp ra mắt hệ sinh thái trung tâm tài chính hàng hải
+                                                </a>
+                                            </h3>
+                                            <div class="see-more-primary mt-10">
+                                                <a href="#" class="see-more-primary__link d-3xl-inline-flex items-center fs-16 text-gray-66">
+                                                    <span class="text flex-1 d-3xl-inline-block">Xem chi tiết</span>
+                                                    <div class="icon flex-0 icon-12 ml-10">
+                                                        <img src="./images/svg/arrow-next-gray.svg" alt="" class="icon-next">
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <!-- end article content -->
+                                        <!-- img -->
+                                        <div class="article-img flex-0 w-30">
+                                            <a href="#" class="ratio-16x9">
+                                                <img src="./images/2.jpg" alt="">
+                                            </a>
+                                        </div>
+                                        <!-- end img -->
+                                    </div>
+                                    <!-- end article -->
+                                    <!-- article -->
+                                    <div class="article d-3xl-flex gap-16 py-16 border-b-d9">
+                                        <!-- article content -->
+                                        <div class="article-content flex-1">
+                                            <h3 class="article-title fs-20 fs-md-18 fw-600 font-merri text-gray-50 lh-130">
+                                                <a href="#" class="fix-text3">TP. Hồ Chí Minh sắp ra mắt hệ sinh thái trung tâm tài chính hàng hải
+                                                </a>
+                                            </h3>
+                                            <div class="see-more-primary mt-10">
+                                                <a href="#" class="see-more-primary__link d-3xl-inline-flex items-center fs-16 text-gray-66">
+                                                    <span class="text flex-1 d-3xl-inline-block">Xem chi tiết</span>
+                                                    <div class="icon flex-0 icon-12 ml-10">
+                                                        <img src="./images/svg/arrow-next-gray.svg" alt="" class="icon-next">
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <!-- end article content -->
+                                        <!-- img -->
+                                        <div class="article-img flex-0 w-30">
+                                            <a href="#" class="ratio-16x9">
+                                                <img src="./images/2.jpg" alt="">
+                                            </a>
+                                        </div>
+                                        <!-- end img -->
+                                    </div>
+                                    <!-- end article -->
+                                </div>
+                                <!-- end article list -->
+                            </div>
+                            <!-- end content -->
+                        </div>
+                        <!-- end box six -->
+                    </div>
+                </section>
+                <!-- end primary -->
+               
+                
+
+            </div>
+            <!-- end mobile -->
+        </main>
+        <!-- end main -->
+        <!-- footer -->
+        <footer id="footer" class="footer w-wrapper z-20 relative py-40 bg-white">
+            <!-- footer container -->
+            <div class="footer-container w-1280 mt-40">
+                <!-- logo -->
+                <a href="#" class="footer-logo logo-img">
+                    <img src="./images/svg/logo.svg" alt="">
+                </a>
+                <!-- end logo -->
+
+                <!-- top -->
+                <div class="footer-top d-3xl-flex d-md-block gap-80 mt-40 mb-40 pb-40 pb-md-20 mb-md-20 border-b-d9">
+                    <!-- info -->
+                    <div class="footer-info flex-1">
+                        <!-- heading -->
+                        <div class="footer-info__heading fs-24 fs-md-18 fw-700 text-gray-33 uppercase">
+                            <span>Tạp chí điện tử doanh nhân trẻ</span>
+                        </div>
+                        <!-- end heading -->
+
+                        <!-- list -->
+                        <ul class="footer-info__list mt-20">
+                            <!-- item -->
+                            <li class="footer-info__item d-3xl-flex items-center gap-10 py-8">
+                                <div class="icon icon-20 icon-md-18 flex-0">
+                                    <img src="./images/svg/home-orange.svg" alt="">
+                                </div>
+
+                                <div class="d-3xl-flex items-center fs-16 fs-md-14 text-gray-33 flex-1">
+                                    <span class="fw-700 d-3xl-inline-block mr-10">Địa chỉ: </span><span>347 Đội Cấn, phường Ngọc Hà, Hà Nội</span>
+                                </div>
+                            </li>
+                            <!-- end item -->
+                            <!-- item -->
+                            <li class="footer-info__item d-3xl-flex items-center gap-10 py-8">
+                                <div class="icon icon-20 icon-md-18 flex-0">
+                                    <img src="./images/svg/phone-orange.svg" alt="">
+                                </div>
+
+                                <div class="d-3xl-flex items-center fs-16 fs-md-14 text-gray-33 flex-1">
+                                    <span class="fw-700 d-3xl-inline-block mr-10">Điện thoại: </span><span>0941987799</span>
+                                </div>
+                            </li>
+                            <!-- end item -->
+                            <!-- item -->
+                            <li class="footer-info__item d-3xl-flex items-center gap-10 py-8">
+                                <div class="icon icon-20 icon-md-18 flex-0">
+                                    <img src="./images/svg/location-orange.svg" alt="">
+                                </div>
+
+                                <div class="d-3xl-flex items-center fs-16 fs-md-14 text-gray-33 flex-1">
+                                    <span class="fw-700 d-3xl-inline-block mr-10">Văn phòng phía Nam: </span><span>Số 4 Trần Nhật Duật, phường Tân Định, TP.HCM</span>
+                                </div>
+                            </li>
+                            <!-- end item -->
+                            <!-- item -->
+                            <li class="footer-info__item d-3xl-flex items-center gap-10 py-8">
+                                <div class="icon icon-20 icon-md-18 flex-0">
+                                    <img src="./images/svg/phone-orange.svg" alt="">
+                                </div>
+
+                                <div class="d-3xl-flex items-center fs-16 fs-md-14 text-gray-33 flex-1">
+                                    <span class="fw-700 d-3xl-inline-block mr-10">Điện thoại: </span><span>0941987799</span>
+                                </div>
+                            </li>
+                            <!-- end item -->
+                            <!-- item -->
+                            <li class="footer-info__item d-3xl-flex items-center gap-10 py-8">
+                                <div class="icon icon-20 icon-md-18 flex-0">
+                                    <img src="./images/svg/email-orange.svg" alt="">
+                                </div>
+
+                                <div class="d-3xl-flex items-center fs-16 fs-md-14 text-gray-33 flex-1">
+                                    <span class="fw-700 d-3xl-inline-block mr-10">Email: </span><span>tapchidoanhnhantrevn@gmail.com</span>
+                                </div>
+                            </li>
+                            <!-- end item -->
+                            <!-- item -->
+                            <li class="footer-info__item d-3xl-flex items-center gap-10 py-8">
+                                <div class="icon icon-20 icon-md-18 flex-0">
+                                    <img src="./images/svg/phone-orange.svg" alt="">
+                                </div>
+
+                                <div class="d-3xl-flex items-center fs-16 fs-md-14 text-gray-33 flex-1">
+                                    <span class="fw-700 d-3xl-inline-block mr-10">Liên hệ quảng cáo: </span><span>0941987799</span>
+                                </div>
+                            </li>
+                            <!-- end item -->
+                        </ul>
+                        <!-- end list -->
+                    </div>
+                    <!-- end info -->
+
+                    <!-- list cate -->
+                    <div class="footer-cate flex-1 mt-md-20">
+                        <!-- heading -->
+                        <div class="footer-cate__heading fs-24 fs-md-18 fw-700 text-gray-33">
+                            <span>Chuyên mục & chủ đề</span>
+                        </div>
+                        <!-- end heading -->
+
+                        <!-- list -->
+                        <ul class="footer-cate__list d-3xl-grid col-2 gap-20 gap-md-10 mt-20">
+                            <!-- item -->
+                             <li class="footer-cate__item fs-16 fs-md-14 text-gray-33">
+                                <a href="#" class="footer-cate__link py-8 d-3xl-flex items-center">Chính sách & Thị Trường</a>
+                             </li>
+                            <!-- end item -->
+                            <!-- item -->
+                             <li class="footer-cate__item fs-16 fs-md-14 text-gray-33">
+                                <a href="#" class="footer-cate__link py-8 d-3xl-flex items-center">Văn hóa doanh nhân</a>
+                             </li>
+                            <!-- end item -->
+                            <!-- item -->
+                             <li class="footer-cate__item fs-16 fs-md-14 text-gray-33">
+                                <a href="#" class="footer-cate__link py-8 d-3xl-flex items-center">Kết nối doanh nhân</a>
+                             </li>
+                            <!-- end item -->
+                            <!-- item -->
+                             <li class="footer-cate__item fs-16 fs-md-14 text-gray-33">
+                                <a href="#" class="footer-cate__link py-8 d-3xl-flex items-center">Hội đồng biên tập</a>
+                             </li>
+                            <!-- end item -->
+                            <!-- item -->
+                             <li class="footer-cate__item fs-16 fs-md-14 text-gray-33">
+                                <a href="#" class="footer-cate__link py-8 d-3xl-flex items-center">Chân dung doanh nhân</a>
+                             </li>
+                            <!-- end item -->
+                            <!-- item -->
+                             <li class="footer-cate__item fs-16 fs-md-14 text-gray-33">
+                                <a href="#" class="footer-cate__link py-8 d-3xl-flex items-center">Dự liệu doanh nhân trẻ Việt Nam</a>
+                             </li>
+                            <!-- end item -->
+                            <!-- item -->
+                             <li class="footer-cate__item fs-16 fs-md-14 text-gray-33">
+                                <a href="#" class="footer-cate__link py-8 d-3xl-flex items-center">Khởi nghiệp & sáng tạo</a>
+                             </li>
+                            <!-- end item -->
+                            <!-- item -->
+                             <li class="footer-cate__item fs-16 fs-md-14 text-gray-33">
+                                <a href="#" class="footer-cate__link py-8 d-3xl-flex items-center">Tầm nhìn doanh nhân trẻ</a>
+                             </li>
+                            <!-- end item -->
+                            <!-- item -->
+                             <li class="footer-cate__item fs-16 fs-md-14 text-gray-33">
+                                <a href="#" class="footer-cate__link py-8 d-3xl-flex items-center">Công nghệ & chuyển đổi số</a>
+                             </li>
+                            <!-- end item -->
+                        </ul>
+                        <!-- end list -->
+                    </div>
+                    <!-- end list cate -->
+                </div>
+                <!-- end top -->
+
+                <!-- center -->
+                <div class="footer-center d-3xl-flex d-md-block gap-80">
+                    <!-- text list -->
+                    <div class="footer-text flex-1">
+                        <!-- heading -->
+                        <div class="footer-text__heading fs-20 fs-md-18 fw-700 text-gray-33 uppercase">
+                            <span>Tạp chí điện tử doanh nhân trẻ</span>
+                        </div>
+                        <!-- end heading -->
+
+                        <!-- list -->
+                        <ul class="footer-text__list mt-20">
+                            <!-- item -->
+                            <li class="footer-info__item d-3xl-flex items-center py-8 fs-16 fs-md-14 text-gray-33">
+                               <strong>Diễn đàn của Hội Doanh nhân trẻ Việt Nam</strong>
+                            </li>
+                            <!-- end item -->
+                            <!-- item -->
+                            <li class="footer-info__item d-3xl-flex items-center py-8 fs-16 fs-md-14 text-gray-33">
+                                <strong>Phụ trách điều hành: </strong>Ông Trần Đình Hưng
+                            </li>
+                            <!-- end item -->
+                            <!-- item -->
+                            <li class="footer-info__item d-3xl-flex items-center py-8 fs-16 fs-md-14 text-gray-33">
+                                Giấy phép báo chí số 551/GP-BTTTT cấp ngày 27.8.2021
+                            </li>
+                            <!-- end item -->
+                            <!-- item -->
+                            <li class="footer-info__item d-3xl-flex items-center py-8 fs-16 fs-md-14 text-gray-33">
+                                Bản quyền thuộc về Tạp chí Doanh nhân trẻ.
+                            </li>
+                            <!-- end item -->
+                            <!-- item -->
+                            <li class="footer-info__item d-3xl-flex items-center py-8 fs-16 fs-md-14 text-gray-33">
+                                Cấm sao chép dưới mọi hình thức nếu không có sự chấp thuận bằng văn bản.
+                            </li>
+                            <!-- end item -->
+                        </ul>
+                        <!-- end list -->
+                    </div>
+                    <!-- end text list -->
+
+                    <!-- social footer -->
+                    <div class="footer-social flex-1 mt-md-20">
+                        <!-- heading -->
+                        <div class="footer-social__heading fs-24 fs-md-18 fw-700 text-gray-33">
+                            <span>Theo dõi chúng tôi</span>
+                        </div>
+                        <!-- end heading -->
+
+                        <!-- list -->
+                        <ul class="footer-social__list mt-20 d-3xl-flex items-center gap-24">
+                            <li class="footer-social__item">
+                                <a href="#" class="footer-social__link">
+                                    <img src="./images/svg/fb-w.svg" alt="">
+                                </a>
+                            </li>
+                            <li class="footer-social__item">
+                                <a href="#" class="footer-social__link">
+                                    <img src="./images/svg/ytb-w.svg" alt="">
+                                </a>
+                            </li>
+                            <li class="footer-social__item">
+                                <a href="#" class="footer-social__link">
+                                    <img src="./images/svg/twitter-w.svg" alt="">
+                                </a>
+                            </li>
+                            <li class="footer-social__item">
+                                <a href="#" class="footer-social__link">
+                                    <img src="./images/svg/thred-w.svg" alt="">
+                                </a>
+                            </li>
+                        </ul>
+                        <!-- end list -->
+                    </div>
+                    <!-- end social footer -->
+                </div>
+                <!-- end center -->
+
+                <!-- bot -->
+                <div class="footer-bot d-3xl-flex items-center justify-center mt-30 fs-16 fs-md-14 text-center text-gray-c3">
+                    <span>Copyright © 2026 doanhnhantre. All rights reserved.</span>
+                </div>
+                <!-- end bot -->
+            </div>
+            <!-- end footer container -->
+            <!-- back top -->
+            <div id="back-top">
+                <img src="./images/svg/arrow-top-w.svg" alt="">
+            </div>
+            <!-- end back top -->
+
+        </footer>
+        <!-- end footer -->
+        <script src="./lib/swiper/swiper-bundle.min.js"></script>
+        <script src="./js/main.js"></script>
+    </body>
+</html>

@@ -1,0 +1,214 @@
+
+.pagination {
+    flex-wrap: wrap;
+    &-item {
+        margin: 4px;
+       
+        &.active {
+            .pagination-link {
+                background-color: #E05A20;
+                color: #fff;
+            }
+        }
+    }
+    &-link {
+        width: 40px;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 5px;
+        border: 1px solid #E9E9E9;
+        background-color: #E9E9E9;
+        transition: all 0.2s;
+
+        &:hover {
+            background-color: #E05A20;
+            color: #fff;
+        }
+    }
+
+}
+
+.pane-item {
+    display: none;
+    
+    &.active {
+        display: block;
+    }
+}
+
+
+.ads-right {
+    img {
+        margin: auto;
+    }
+}
+
+.breadcrumb {
+    &-container {
+        margin-bottom: 2px;
+        // border-bottom: 1px solid #e1e1e1;
+        display: flex;
+        flex-wrap: nowrap;
+        overflow: auto;
+        white-space: nowrap;
+
+    }
+    &-item {
+        &:first-child {
+            .breadcrumb-link {
+                margin-left: -10px;
+              }
+
+            color: #505050;
+        }
+        &:last-child {
+            .breadcrumb-link {
+                &::before {
+                    content: none;
+                  }
+            }
+        }
+
+        &.active {
+            color: #E05A20;
+        }
+        color: #E05A20;
+    }
+
+    &-link {
+      position: relative;
+      display: inline-block;
+      padding: 12px 10px 10px;
+
+      &::before {
+        content: "/";
+        position: absolute;
+        right: 0;
+        color: #A8A8A8;
+      }
+    }
+    
+}
+
+// du lieu doanh nhan tre
+.businessmen-data-primary {
+    .form {
+        &-group {
+        }
+        &-input {
+            border: 1px solid #d8d8d8;
+            height: 54px;
+            border-radius: 5px 0 0 5px;
+            padding: 12px 30px;
+        }
+        &-btn {
+            border-radius: 0 5px 5px 0;
+        }
+    }
+    &__filter {
+        .select {
+            width: 100%;
+            background-color: white;
+            border: 1px solid #d8d8d8;
+            border-radius: 5px;
+            padding-right: 10px;
+            overflow: hidden;
+        }
+        select {
+            width: 100%;
+            padding: 9px;
+            background-color: transparent;
+            font-size: 16px;
+            min-width: 180px;
+        }
+    }
+}
+
+// hoi dong bien tap
+.editorial-board-primary {
+    &__large {
+        .article-content {
+            max-height: 540px;
+            overflow: auto;
+        }
+        h2 {
+            font-size: 20px;
+            font-family: "Merriweather", serif;
+            font-weight: 700;
+            margin-bottom: 10px;
+            margin-top: 10px;
+        }
+
+        ul {
+            padding-left: 20px;
+            li {
+                font-size: 16px;
+                margin-bottom: 8px;
+                font-weight: 400;
+                list-style: disc;
+            }
+        }
+        strong {
+            font-weight: bold;
+        }
+    }
+
+    &__medium {
+        h2 {
+            font-size: 18px;
+            font-family: "Merriweather", serif;
+            font-weight: 700;
+            margin-bottom: 10px;
+            margin-top: 10px;
+        }
+        .article-title {
+            font-size: 24px;
+        }
+
+        ul {
+            padding-left: 20px;
+            li {
+                font-size: 15px;
+                margin-bottom: 8px;
+                font-weight: 400;
+                list-style: disc;
+            }
+        }
+        p {
+            font-size: 15px;
+        }
+        strong {
+            font-weight: bold;
+        }
+    }
+    &__smalls {
+        h2 {
+            font-size: 16px;
+            font-family: "Merriweather", serif;
+            font-weight: 700;
+            margin-bottom: 10px;
+            margin-top: 10px;
+        }
+        .article-title {
+            font-size: 20px;
+        }
+
+        ul {
+            padding-left: 20px;
+            li {
+                font-size: 15px;
+                margin-bottom: 8px;
+                font-weight: 400;
+                list-style: disc;
+            }
+        }
+        p {
+            font-size: 15px;
+        }
+        strong {
+            font-weight: bold;
+        }
+    }
+}

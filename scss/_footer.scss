@@ -1,0 +1,32 @@
+#back-top {
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    width: 40px;
+    height: 40px;
+    background: #E05A20;
+    border-radius: 999px;
+    border: 1px solid #E05A20;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.6s;
+    -webkit-transition: all 0.6s;
+    -moz-transition: all 0.6s;
+    -ms-transition: all 0.6s;
+    -o-transition: all 0.6s;
+    user-select: none;
+    z-index: 1000;
+
+    img {
+        width: 16px;
+        height: auto;
+    }
+}
+
+.footer {
+   
+}
