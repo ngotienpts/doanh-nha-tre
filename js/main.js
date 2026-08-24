@@ -26,6 +26,20 @@ document.addEventListener("DOMContentLoaded", function () {
         
     }
 
+    function handleMoreMenu() {
+        const navbarMoreIcon = document.querySelector('.js__navbarMoreIcon');
+        const navbarMoreContent = document.querySelector('.js__navbarMoreContent');
+
+        // Nếu thiếu 1 trong 2 element thì dừng luôn, không báo lỗi
+        if (!navbarMoreIcon || !navbarMoreContent) return;
+
+        navbarMoreIcon.addEventListener('click', function(e) {
+            e.stopPropagation(); // Ngăn sự kiện nổi bọt
+            this.classList.toggle('active');
+            navbarMoreContent.classList.toggle('active');
+        });
+    }
+
 
     // khởi tạo slider với 4 item
     function initSliderFourItems() {
@@ -255,6 +269,7 @@ document.addEventListener("DOMContentLoaded", function () {
         handleShowSubMenu();
         handleShowDropdownSubMenu();
         handleShowSearchMb();
+        handleMoreMenu();
         // slide
         initSliderFourItems();
         // end slide
