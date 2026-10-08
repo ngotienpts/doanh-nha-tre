@@ -1460,6 +1460,10 @@ p {
   flex: 1;
 }
 
+.flex-1-5 {
+  flex: 1.5;
+}
+
 .flex-2 {
   flex: 2;
 }
@@ -3230,6 +3234,10 @@ p {
     flex-direction: column;
   }
   /*----------------------------------------------------*/
+  .flex-md-1 {
+    flex: 1;
+  }
+  /*----------------------------------------------------*/
   .order-md-1 {
     order: 1;
   }
@@ -3259,6 +3267,9 @@ p {
   .border-l-md-0 {
     border-left: none;
   }
+  .border-b-md-0 {
+    border-bottom: none;
+  }
   .border-b-md-d9 {
     border-bottom: 1px solid #d9d9d9;
   }
@@ -3278,6 +3289,9 @@ p {
   }
   .ml-md-0 {
     margin-left: 0;
+  }
+  .mt-md-0 {
+    margin-top: 0;
   }
   /*----------------------------------------------------*/
   .p-md-12 {
@@ -3327,6 +3341,9 @@ p {
   }
   .p-md-20 {
     padding: 20px;
+  }
+  .pr-md-20 {
+    padding-right: 20px;
   }
   /*----------------------------------------------------*/
   .py-md-30 {
